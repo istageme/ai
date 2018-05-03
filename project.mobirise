@@ -1778,7 +1778,7 @@
             "showText": true,
             "showArrow": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/032.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/033.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#16a085",
