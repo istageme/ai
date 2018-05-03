@@ -796,6 +796,18 @@ blockquote {
   letter-spacing: 2px;
   color: #fff;
 }
+#features2-28 .mbr-section-title {
+  font-weight: 700;
+}
+#features2-28 .mbr-section-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 18px;
+}
+#features2-28 .mbr-section-text {
+  font-size: 18px;
+}
 #header9-p .elements-content {
   padding-bottom: 50px;
 }
