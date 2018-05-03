@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-05-03_1319",
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -172,7 +172,7 @@
                 "title": "电销精英等你来雇",
                 "overlay": true,
                 "text": "支持转人、支持打断、高效能低成本、不知疲倦、永不离职",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">在线试听</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">立即加盟</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html#features1-12\" data-toolbar=\"-mbrBtnMove\">在线试听</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">立即加盟</a>"
               }
             ]
           },
