@@ -146,7 +146,7 @@
             "timeout": 5,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1812x1080.jpg",
                 "contentAlign": "center",
                 "active": true,
                 "showButtons": true,
@@ -172,7 +172,7 @@
                 "title": "电销精英等你来雇",
                 "overlay": true,
                 "text": "支持转人、支持打断、高效能低成本、不知疲倦、永不离职",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">在线试听</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">在线咨询</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">在线试听</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">立即加盟</a>"
               }
             ]
           },
@@ -356,7 +356,7 @@
             "overlayOpacity": 0.9
           },
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
-          "title": "<br>硅语全自动电话机器人",
+          "title": "<br>全自动电话机器人",
           "text": "<b>本着把人类从重复的脑力劳动中解放出来的信念，我们创造出了全自动电话机器人——硅语，她将成为企业最强大的话务员团队。 硅语弥补了人工有效通话时间短的致命弱点，在提高效率的同时降低企业成本，不仅节省空间占用率，更比人工话务员工作稳定性高。</b>",
           "title1": "语音识别（ASR）",
           "title2": "文本生成语音（TTS）",
@@ -952,14 +952,6 @@
           "_anchor": "header5-q"
         },
         {
-          "_styles": {
-            ".mbr-section__container .mbr-section-title": {
-              "color": "#fff"
-            },
-            ".mbr-section__container .mbr-section-subtitle": {
-              "color": "#a0a0a0"
-            }
-          },
           "_params": {
             "showTitle": true,
             "showSubtitle": true,
@@ -997,7 +989,7 @@
           "currency2": "¥",
           "currency3": "$",
           "currency4": "$",
-          "price1": "6万",
+          "price1": "¥6万",
           "price2": "2.5万",
           "price3": "65",
           "price4": "190",
@@ -1017,7 +1009,12 @@
             "主题"
           ],
           "_name": "pricing-table2",
-          "_anchor": "pricing-table2-s"
+          "_anchor": "pricing-table2-s",
+          "_customHTML": "<section class=\"mbr-section mbr-price-table price-table2 mbr-background\" data-rv-view=\"586\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/pricing-table-bg.jpg&quot;); padding-top: 120px; padding-bottom: 120px;\">\n\n    \n\n      <div class=\"container\">\n          <div class=\"row\">\n              <div class=\"col-xs-12 text-xs-center\">\n                  <h1 class=\"mbr-section-title main-title mbr-editable-content\" style=\"margin-bottom: 0.28em;\" code-editable-id=\"146\">效率对比</h1>\n                  <h5 class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"147\"> 人工与机器人.</h5>\n              </div>\n          </div>\n      </div>\n\n    <div class=\"mbr-section mbr-section-nopadding\">\n      <div class=\"row priceItem\">\n            <div class=\"col-xs-12 col-md-6 col-xl-6\">\n                <div class=\"mbr-plan card text-xs-center\">\n                    <div class=\"mbr-plan-header card-block default\">\n                      \n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"148\">人类员工</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                          <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"149\">¥</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"150\">6万</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"151\">/年</small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"152\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">客户筛选<strong>100-300通/天\n</strong></li><li class=\"list-group-item\">薪资待遇<strong>60000/年\n</strong></li><li class=\"list-group-item\"><strong>社保公积金国家规定\n</strong></li><li class=\"list-group-item\">其他福利 <strong>看公司实力\n</strong></li><li class=\"list-group-item\">情绪稳定性<strong>波动\n</strong></li><li class=\"list-group-item\">忠诚度<strong>难以控制\n</strong></li><li class=\"list-group-item\">招聘难易度<strong>难</strong></li></ul></div>\n                      \n                    </div>\n                </div>\n            </div>\n            <div class=\"col-xs-12 col-md-6 col-xl-6\" style=\"padding-left: 0px; padding-right: 0px;\">\n                <div class=\"mbr-plan card text-xs-center\" style=\"margin-top: -30px; padding-top: 30px; padding-bottom: 30px; margin-left: -2px; margin-right: -2px; background-color: rgb(255, 255, 255); z-index: 100;\">\n                    <div class=\"mbr-plan-header card-block popular\">\n                      <div class=\"mbr-plan-label bg-warning mbr-editable-content\" style=\"top: -14px;\" code-editable-id=\"153\">POPULAR</div>\n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"154\">机器人员工</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                            <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"155\">¥</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"156\">2.5万</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"157\">/年</small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"158\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">电话拨打量&nbsp;<strong>800-1000通/天\n</strong></li><li class=\"list-group-item\">薪资待遇 <strong>25000/年\n</strong></li><li class=\"list-group-item\">社保公积金<strong>不需要\n</strong></li><li class=\"list-group-item\">其他福利 <strong>不需要\n</strong></li><li class=\"list-group-item\">情绪稳定性<strong>稳定\n</strong></li><li class=\"list-group-item\">忠诚度 <strong>绝对忠诚\n</strong></li><li class=\"list-group-item\">招聘难易度<strong>易</strong></li></ul></div>\n                      \n                    </div>\n                </div>\n            </div>\n            \n            \n          </div>\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".mbr-section__container .mbr-section-title {\n  color: #fff;\n}\n.mbr-section__container .mbr-section-subtitle {\n  color: #a0a0a0;\n}\n",
+          "_customTemplate": true
         },
         {
           "_params": {
@@ -1781,7 +1778,7 @@
             "showText": true,
             "showArrow": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/030.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/031.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#16a085",
