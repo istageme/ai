@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-05-03_1319",
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -30,7 +30,7 @@
     "favicon": "@PROJECT_PATH@/assets/images/3-128x85.png",
     "noImageResize": "",
     "cookiesAlert": "",
-    "google-analytics": "<script type='text/javascript'>\r\n    (function(m, ei, q, i, a, j, s) {\r\n        m[i] = m[i] || function() {\r\n            (m[i].a = m[i].a || []).push(arguments)\r\n        };\r\n        j = ei.createElement(q),\r\n            s = ei.getElementsByTagName(q)[0];\r\n        j.async = true;\r\n        j.charset = 'UTF-8';\r\n        j.src = 'https://static.meiqia.com/dist/meiqia.js?_=t';\r\n        s.parentNode.insertBefore(j, s);\r\n    })(window, document, 'script', '_MEIQIA');\r\n    _MEIQIA('entId', 47756);\r\n</script>",
+    "google-analytics": "<script type='text/javascript'>\r\n    (function(m, ei, q, i, a, j, s) {\r\n        m[i] = m[i] || function() {\r\n            (m[i].a = m[i].a || []).push(arguments)\r\n        };\r\n        j = ei.createElement(q),\r\n            s = ei.getElementsByTagName(q)[0];\r\n        j.async = true;\r\n        j.charset = 'UTF-8';\r\n        j.src = 'https://static.meiqia.com/dist/meiqia.js?_=t';\r\n        s.parentNode.insertBefore(j, s);\r\n    })(window, document, 'script', '_MEIQIA');\r\n    _MEIQIA('entId', 106407);\r\n</script>",
     "siteUrl": "undefined"
   },
   "pages": {
@@ -1934,7 +1934,7 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">download it</a>",
           "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">加盟</a>",
           "form": {
-            "action": "32397729@qq.com",
+            "action": "zhihu668@foxmail.com",
             "alerts": {
               "success": "谢谢"
             },
@@ -1994,7 +1994,7 @@
           },
           "title1": "晋江世纪大道御景花园1栋8-9号店",
           "title2": "18016585658  刘\n<div>13625945830  吴\n</div><div>0595-88165658</div>",
-          "title3": "istage@qq.com",
+          "title3": "zhihu668@foxmail.com",
           "cat1": "地址",
           "cat2": "phone",
           "cat3": "email",
