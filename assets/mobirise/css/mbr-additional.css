@@ -785,7 +785,7 @@ blockquote {
 }
 #slider-g .mbr-section-text {
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
 }
 #features16-19 .mbr-section-title {
   font-weight: 700;
@@ -796,6 +796,10 @@ blockquote {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #fff;
+  font-size: 22px;
+}
+#features16-19 .mbr-section-text {
+  font-size: 20px;
 }
 #features8-2a .lead {
   color: #9fa3a7;
@@ -805,6 +809,7 @@ blockquote {
 }
 #features8-2a .mbr-section-text {
   color: #000000;
+  font-size: 18px;
 }
 #features7-2c .lead {
   color: #9fa3a7;
@@ -822,10 +827,10 @@ blockquote {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #fff;
-  font-size: 18px;
+  font-size: 22px;
 }
 #features2-28 .mbr-section-text {
-  font-size: 18px;
+  font-size: 20px;
 }
 #header9-p .elements-content {
   padding-bottom: 50px;
@@ -838,6 +843,9 @@ blockquote {
 #header9-p .mbr-section-title,
 #header9-p .tab-pane {
   color: #000;
+}
+#header9-p P {
+  font-size: 22px;
 }
 #features1-12 .mbr-section-title {
   font-weight: 700;
@@ -872,6 +880,9 @@ blockquote {
 }
 #header5-q .nav-tabs {
   margin-top: 90px;
+}
+#header5-q P {
+  font-size: 20px;
 }
 #pricing-table2-s .mbr-section__container .mbr-section-title {
   color: #fff;
@@ -984,10 +995,10 @@ blockquote {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
 }
 #features2-2h .mbr-section-text {
-  font-size: 22px;
+  font-size: 25px;
 }
 #features2-2i .mbr-section-title {
   font-weight: 700;
@@ -996,7 +1007,7 @@ blockquote {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
 }
 #features2-2i .mbr-section-text {
   font-size: 22px;
@@ -1007,6 +1018,10 @@ blockquote {
 #features8-2j .mbr-section-subtitle {
   text-transform: uppercase;
 }
+#features8-2j .mbr-section-text {
+  color: #666666;
+  font-size: 25px;
+}
 #features7-2k .lead {
   color: #9fa3a7;
 }
@@ -1014,7 +1029,7 @@ blockquote {
   text-transform: uppercase;
 }
 #features7-2k .mbr-section-text {
-  font-size: 22px;
+  font-size: 25px;
 }
 #features8-2m .lead {
   color: #9fa3a7;
@@ -1039,6 +1054,12 @@ blockquote {
 }
 #contacts3-2g .form-control-label {
   color: undefined;
+}
+#contacts3-2g .mbr-section-subtitle {
+  font-size: 20px;
+}
+#contacts3-2g .mbr-section-text {
+  font-size: 25px;
 }
 #menu-1p .hide-buttons .nav-btn {
   display: none !important;
@@ -1111,6 +1132,12 @@ blockquote {
 #footer7-23 .mbr-section-subtitle {
   font-size: 25px;
 }
+#intro1-24 .mbr-section-subtitle {
+  font-size: 25px;
+}
 #contacts3-25 .form-control-label {
   color: undefined;
+}
+#contacts3-25 .mbr-section-subtitle {
+  font-size: 25px;
 }

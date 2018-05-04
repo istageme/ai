@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-05-03_1319",
-    "currentPage": "service.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -190,7 +190,7 @@
           "_styles": {
             ".mbr-section-text": {
               "text-align": "center",
-              "font-size": "20px"
+              "font-size": "25px"
             }
           }
         },
@@ -204,7 +204,11 @@
             ".mbr-section-subtitle": {
               "text-transform": "uppercase",
               "letter-spacing": "2px",
-              "color": "#fff"
+              "color": "#fff",
+              "font-size": "22px"
+            },
+            ".mbr-section-text": {
+              "font-size": "20px"
             }
           },
           "_params": {
@@ -333,7 +337,8 @@
               "text-transform": "uppercase"
             },
             ".mbr-section-text": {
-              "color": "#000000"
+              "color": "#000000",
+              "font-size": "18px"
             }
           },
           "_params": {
@@ -479,10 +484,10 @@
               "text-transform": "uppercase",
               "letter-spacing": "2px",
               "color": "#fff",
-              "font-size": "18px"
+              "font-size": "22px"
             },
             ".mbr-section-text": {
-              "font-size": "18px"
+              "font-size": "20px"
             }
           },
           "_params": {
@@ -620,6 +625,9 @@
             },
             ".mbr-section-title, .tab-pane": {
               "color": "#000"
+            },
+            "P": {
+              "font-size": "22px"
             }
           },
           "_params": {
@@ -943,10 +951,10 @@
           ],
           "_name": "features1",
           "_anchor": "features1-12",
-          "_customHTML": "<section class=\"mbr-section mbr-section-hero features1 features4\" data-rv-view=\"196\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/01.jpg&quot;); padding-top: 80px; padding-bottom: 0px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(44, 62, 80);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"56\">功能试听</h1>\n\n                </div>\n            </div>\n\n            <div class=\"mbr-cards-row row\">\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/01.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"57\">贷款电话机器人</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"58\">专业贷款话术，快速挖掘潜在客户。想要在茫茫人海中寻找贷款意向用户是很有难度的，这就需要高效和精准的判断筛选，用硅语贷款电话机器人是最好的选择。</p>\n\n<audio src=\"http://www.guiji.ai/media/file/force-loan.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/02.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"59\">房产电话机器人</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"60\">专业讲解楼盘优势，告别传统销售。不用害怕被拒绝，不用担心被秒挂，对意向用户可以给出最精确的楼盘介绍，成为售楼、收楼好帮手。</p>\n\n<audio src=\"http://www.guiji.ai/media/file/force-house.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n\n                                \n                            </div>\n                        </div>\n                  </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/03.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"61\">理财电话机器人</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"62\">合理理财建议，自动化理财专家。涉及金钱的业务很多人都会很谨慎，话务员工作时难免遇到刁难，而智呼理财电话机器人的宗旨就是“客户虐我千百遍，我待客户如初恋”。</p>\n\n\n<audio src=\"http://www.guiji.ai/media/file/force-finance.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n                \n            </div>\n\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero features1 features4\" data-rv-view=\"196\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/01.jpg&quot;); padding-top: 80px; padding-bottom: 0px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(44, 62, 80);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"56\">功能试听</h1>\n\n                </div>\n            </div>\n\n            <div class=\"mbr-cards-row row\">\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/01.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"57\" style=\"font-size: 19px;\">贷款电话机器人</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"58\" style=\"font-size: 19px;\">专业贷款话术，快速挖掘潜在客户。想要在茫茫人海中寻找贷款意向用户是很有难度的，这就需要高效和精准的判断筛选，用硅语贷款电话机器人是最好的选择。</p>\n\n<audio src=\"http://www.guiji.ai/media/file/force-loan.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/02.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"59\" style=\"font-size: 19px;\">房产电话机器人</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"60\" style=\"font-size: 22px;\">专业讲解楼盘优势，告别传统销售。不用害怕被拒绝，不用担心被秒挂，对意向用户可以给出最精确的楼盘介绍，成为售楼、收楼好帮手。</p>\n\n<audio src=\"http://www.guiji.ai/media/file/force-house.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n\n                                \n                            </div>\n                        </div>\n                  </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/03.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"61\" style=\"font-size: 19px;\">理财电话机器人</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"62\" style=\"font-size: 22px;\">合理理财建议，自动化理财专家。涉及金钱的业务很多人都会很谨慎，话务员工作时难免遇到刁难，而智呼理财电话机器人的宗旨就是“客户虐我千百遍，我待客户如初恋”。</p>\n\n\n<audio src=\"http://www.guiji.ai/media/file/force-finance.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n                \n            </div>\n\n        </div>\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_customCSS": ".mbr-section-title {\n  font-weight: 700;\n}\n.mbr-section-subtitle {\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  color: #fff;\n}\n",
+          "_customCSS": "@import url(undefined);\n.mbr-section-title {\n  font-weight: 700;\n}\n.mbr-section-subtitle {\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  color: #fff;\n}\n",
           "_customTemplate": true
         },
         {
@@ -1105,10 +1113,10 @@
           ],
           "_name": "features1",
           "_anchor": "features1-13",
-          "_customHTML": "<section class=\"mbr-section mbr-section-hero features1 features4\" data-rv-view=\"199\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/02.jpg&quot;); padding-top: 0px; padding-bottom: 80px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(44, 62, 80);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center\">\n\n                    \n\n                </div>\n            </div>\n\n            <div class=\"mbr-cards-row row\">\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/01.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"44\">催款电话机器人</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"45\">高效合理催款，全年无休，针对性强。不能按时进行银行还款，又不喜欢被催的客户接到催款电话时情绪通常比较激动，用智呼催款电话机器人去承受这份压力是保护人类自尊的好选择。</p>\n\n<audio src=\"http://www.guiji.ai/media/file/force-money-360.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/02.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"46\">装修电话机器人</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"47\">意向客户自动打标，大幅缩减成本。减少装修的套路，多一点实惠和真诚。锁定精准客户，智呼装修电话机器人让客户与企业直接建立合作，高效率低成本。</p>\n\n<audio src=\"http://www.guiji.ai/media/file/force-fixture.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n                                \n                            </div>\n                        </div>\n                  </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/03.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"48\">电话机器人\n<div>（可打断功能）</div></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"49\">支持通话过程实时打断，并给予及时应答，确保对话正常进行，完全没有疏离感。</p>\n<audio src=\"http://www.guiji.ai/media/file/force-break.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n                \n            </div>\n\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero features1 features4\" data-rv-view=\"199\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/02.jpg&quot;); padding-top: 0px; padding-bottom: 80px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(44, 62, 80);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center\">\n\n                    \n\n                </div>\n            </div>\n\n            <div class=\"mbr-cards-row row\">\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/01.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"44\" style=\"font-size: 19px;\">催款电话机器人</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"45\" style=\"font-size: 22px;\">高效合理催款，全年无休，针对性强。不能按时进行银行还款，又不喜欢被催的客户接到催款电话时情绪通常比较激动，用智呼催款电话机器人去承受这份压力是保护人类自尊的好选择。</p>\n\n<audio src=\"http://www.guiji.ai/media/file/force-money-360.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/02.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"46\" style=\"font-size: 19px;\">装修电话机器人</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"47\" style=\"font-size: 20px;\">意向客户自动打标，大幅缩减成本。减少装修的套路，多一点实惠和真诚。锁定精准客户，智呼装修电话机器人让客户与企业直接建立合作，高效率低成本。</p>\n\n<audio src=\"http://www.guiji.ai/media/file/force-fixture.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n                                \n                            </div>\n                        </div>\n                  </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/03.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"48\" style=\"font-size: 18px;\">电话机器人\n<div>（可打断功能）</div></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"49\" style=\"font-size: 20px;\">支持通话过程实时打断，并给予及时应答，确保对话正常进行，完全没有疏离感。</p>\n<audio src=\"http://www.guiji.ai/media/file/force-break.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n                \n            </div>\n\n        </div>\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_customCSS": ".mbr-section-title {\n  font-weight: 700;\n}\n.mbr-section-subtitle {\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  color: #fff;\n}\n",
+          "_customCSS": "@import url(undefined);\n.mbr-section-title {\n  font-weight: 700;\n}\n.mbr-section-subtitle {\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  color: #fff;\n}\n",
           "_customTemplate": true
         },
         {
@@ -1129,6 +1137,9 @@
             },
             ".nav-tabs": {
               "margin-top": "90px"
+            },
+            "P": {
+              "font-size": "20px"
             }
           },
           "_params": {
@@ -1157,7 +1168,7 @@
           "title4": "快速适配，高度定制",
           "title5": "全平台解决方案",
           "title6": "CONTACT FORMS",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header5-q\" aria-expanded=\"false\">产品基于自然语言理解</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header5-q\" aria-expanded=\"false\">支持打断</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header5-q\" aria-expanded=\"false\"><b>人工转接</b></a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header5-q\" aria-expanded=\"false\">快速适配，高度定制</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header5-q\" aria-expanded=\"true\">全平台解决方案</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header5-q\">Beautiful</a></li>",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header5-q\" aria-expanded=\"false\">产品基于自然语言理解</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header5-q\" aria-expanded=\"true\">支持打断</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header5-q\" aria-expanded=\"false\"><b>人工转接</b></a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header5-q\" aria-expanded=\"false\">快速适配，高度定制</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header5-q\" aria-expanded=\"true\">全平台解决方案</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header5-q\">Beautiful</a></li>",
           "media1": {
             "iconFont": {
               "active": true,
@@ -1296,7 +1307,7 @@
           ],
           "_name": "pricing-table2",
           "_anchor": "pricing-table2-s",
-          "_customHTML": "<section class=\"mbr-section mbr-price-table price-table2 mbr-background\" data-rv-view=\"586\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/pricing-table-bg.jpg&quot;); padding-top: 120px; padding-bottom: 120px;\">\n\n    \n\n      <div class=\"container\">\n          <div class=\"row\">\n              <div class=\"col-xs-12 text-xs-center\">\n                  <h1 class=\"mbr-section-title main-title mbr-editable-content\" style=\"margin-bottom: 0.28em;\" code-editable-id=\"63\">效率对比</h1>\n                  <h5 class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"64\"> 人工与机器人.</h5>\n              </div>\n          </div>\n      </div>\n\n    <div class=\"mbr-section mbr-section-nopadding\">\n      <div class=\"row priceItem\">\n            <div class=\"col-xs-12 col-md-6 col-xl-6\">\n                <div class=\"mbr-plan card text-xs-center\">\n                    <div class=\"mbr-plan-header card-block default\">\n                      \n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"65\">人类员工</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                          <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"66\">¥</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"67\">6万</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"68\">/年</small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"69\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><strong>招工成本高\n</strong></li><li class=\"list-group-item\"><strong>培训时间长\n</strong></li><li class=\"list-group-item\"><strong>社保公积金国家规定\n</strong></li><li class=\"list-group-item\"> <strong>工作时间短\n</strong></li><li class=\"list-group-item\"><strong>工作效率低\n</strong></li><li class=\"list-group-item\"><strong>情绪波动大\n</strong></li><li class=\"list-group-item\"><strong>工作单调枯燥离职率高\n</strong></li><li class=\"list-group-item\"><strong>员工管理难</strong></li></ul></div>\n                      \n                    </div>\n                </div>\n            </div>\n            <div class=\"col-xs-12 col-md-6 col-xl-6\" style=\"padding-left: 0px; padding-right: 0px;\">\n                <div class=\"mbr-plan card text-xs-center\" style=\"margin-top: -30px; padding-top: 30px; padding-bottom: 30px; margin-left: -2px; margin-right: -2px; background-color: rgb(255, 255, 255); z-index: 100;\">\n                    <div class=\"mbr-plan-header card-block popular\">\n                      <div class=\"mbr-plan-label bg-warning mbr-editable-content\" style=\"top: -14px;\" code-editable-id=\"70\">POPULAR</div>\n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"71\">机器人员工</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                            <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"72\">¥</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"73\">2.5万</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"74\">/年</small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"75\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">&nbsp;<strong>价格低\n</strong></li><li class=\"list-group-item\"> <strong>无需培训直接上岗个个都是电销精英\n</strong></li><li class=\"list-group-item\"><strong>365天不间断工作，无需休息\n</strong></li><li class=\"list-group-item\"> <strong>每时每刻充满激情，情绪饱满不会波动\n</strong></li><li class=\"list-group-item\"><strong>自动统计，条理清晰\n</strong></li><li class=\"list-group-item\"> <strong>工作效率高，每天可以呼出1000个左右电销电话\n</strong></li><li class=\"list-group-item\"><strong>管理简单,使用方便</strong></li></ul></div>\n                      \n                    </div>\n                </div>\n            </div>\n            \n            \n          </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-price-table price-table2 mbr-background\" data-rv-view=\"586\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/pricing-table-bg.jpg&quot;); padding-top: 120px; padding-bottom: 120px;\">\n\n    \n\n      <div class=\"container\">\n          <div class=\"row\">\n              <div class=\"col-xs-12 text-xs-center\">\n                  <h1 class=\"mbr-section-title main-title mbr-editable-content\" style=\"margin-bottom: 0.28em;\" code-editable-id=\"52\">效率对比</h1>\n                  <h5 class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"53\"> 人工与机器人.</h5>\n              </div>\n          </div>\n      </div>\n\n    <div class=\"mbr-section mbr-section-nopadding\">\n      <div class=\"row priceItem\">\n            <div class=\"col-xs-12 col-md-6 col-xl-6\">\n                <div class=\"mbr-plan card text-xs-center\">\n                    <div class=\"mbr-plan-header card-block default\">\n                      \n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"54\">人类员工</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                          <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"55\">¥</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"56\">6万</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"57\">/年</small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"58\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><strong>招工成本高\n</strong></li><li class=\"list-group-item\"><strong>培训时间长\n</strong></li><li class=\"list-group-item\"><strong>社保公积金国家规定\n</strong></li><li class=\"list-group-item\"> <strong>工作时间短\n</strong></li><li class=\"list-group-item\"><strong>工作效率低\n</strong></li><li class=\"list-group-item\"><strong>情绪波动大\n</strong></li><li class=\"list-group-item\"><strong>工作单调枯燥离职率高\n</strong></li><li class=\"list-group-item\"><strong>员工管理难</strong></li></ul></div>\n                      \n                    </div>\n                </div>\n            </div>\n            <div class=\"col-xs-12 col-md-6 col-xl-6\" style=\"padding-left: 0px; padding-right: 0px;\">\n                <div class=\"mbr-plan card text-xs-center\" style=\"margin-top: -30px; padding-top: 30px; padding-bottom: 30px; margin-left: -2px; margin-right: -2px; background-color: rgb(255, 255, 255); z-index: 100;\">\n                    <div class=\"mbr-plan-header card-block popular\">\n                      <div class=\"mbr-plan-label bg-warning mbr-editable-content\" style=\"top: -14px;\" code-editable-id=\"59\">POPULAR</div>\n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"60\">机器人员工</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                            <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"61\">¥</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"62\">2.5万</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"63\">/年</small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"64\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">&nbsp;<strong>价格低\n</strong></li><li class=\"list-group-item\"> <strong>无需培训直接上岗个个都是电销精英\n</strong></li><li class=\"list-group-item\"><strong>365天不间断工作，无需休息\n</strong></li><li class=\"list-group-item\"> <strong>每时每刻充满激情，情绪饱满不会波动\n</strong></li><li class=\"list-group-item\"><strong>自动统计，条理清晰\n</strong></li><li class=\"list-group-item\"> <strong>工作效率高，每天可以呼出1000个左右电销电话\n</strong></li><li class=\"list-group-item\"><strong>管理简单,使用方便</strong></li></ul></div>\n                      \n                    </div>\n                </div>\n            </div>\n            \n            \n          </div>\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": ".mbr-section__container .mbr-section-title {\n  color: #fff;\n}\n.mbr-section__container .mbr-section-subtitle {\n  color: #a0a0a0;\n}\n",
@@ -1422,7 +1433,7 @@
           ],
           "_name": "features2",
           "_anchor": "features2-3",
-          "_customHTML": "<section class=\"mbr-section mbr-section-hero features4\" data-rv-view=\"8\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/03.jpg&quot;); padding-top: 80px; padding-bottom: 80px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(52, 152, 219);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"45\">智呼智能电话销售专家</h1>\n\n                </div>\n            </div>\n\n            <div class=\"mbr-cards-row row\">\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"46\">降低成本提高效率</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" style=\"font-size: 22px;\" code-editable-id=\"47\">用雇佣人工成本的一半雇佣智呼智能电话机器人智呼办公，可以做到24小时全时段工作，无需投入人力进行招聘和培训，更不会因外界影响影响到效率</p>\n\n\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-edit mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"48\">情绪饱满不会波动</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" style=\"font-size: 22px;\" code-editable-id=\"49\">每一个种类的智呼电话机器人都能做到与客户亲切互动，声音甜美，没有加班抱怨，没有情绪波动</p>\n\n\n                            </div>\n                        </div>\n                  </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-briefcase mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"50\">自动统计条理清晰<br>\n<div>\n</div><div>智呼作为电销机器人可以准确了解客户购买意向程度，自动将意向客户进行分类，无需转接人工，高效留住客户，智能回答客户提出的问题</div></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"51\"></p>\n\n\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n                \n            </div>\n\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero features4\" data-rv-view=\"8\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/03.jpg&quot;); padding-top: 80px; padding-bottom: 80px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(52, 152, 219);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"45\">智呼智能电话销售专家</h1>\n\n                </div>\n            </div>\n\n            <div class=\"mbr-cards-row row\">\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"46\" style=\"font-size: 20px;\">降低成本提高效率</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" style=\"font-size: 22px;\" code-editable-id=\"47\">用雇佣人工成本的一半雇佣智呼智能电话机器人智呼办公，可以做到24小时全时段工作，无需投入人力进行招聘和培训，更不会因外界影响影响到效率</p>\n\n\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-edit mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"48\">情绪饱满不会波动</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" style=\"font-size: 22px;\" code-editable-id=\"49\">每一个种类的智呼电话机器人都能做到与客户亲切互动，声音甜美，没有加班抱怨，没有情绪波动</p>\n\n\n                            </div>\n                        </div>\n                  </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-briefcase mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"50\">自动统计条理清晰<br>\n<div>\n</div><div>智呼作为电销机器人可以准确了解客户购买意向程度，自动将意向客户进行分类，无需转接人工，高效留住客户，智能回答客户提出的问题</div></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"51\"></p>\n\n\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n                \n            </div>\n\n        </div>\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": "@import url(undefined);\n.mbr-section-title {\n  font-weight: 700;\n}\n.mbr-section-subtitle {\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  color: #fff;\n}\n",
@@ -2091,10 +2102,10 @@
               "text-transform": "uppercase",
               "letter-spacing": "2px",
               "color": "#fff",
-              "font-size": "20px"
+              "font-size": "22px"
             },
             ".mbr-section-text": {
-              "font-size": "22px"
+              "font-size": "25px"
             }
           },
           "_params": {
@@ -2229,7 +2240,7 @@
               "text-transform": "uppercase",
               "letter-spacing": "2px",
               "color": "#fff",
-              "font-size": "20px"
+              "font-size": "25px"
             },
             ".mbr-section-text": {
               "font-size": "22px"
@@ -2365,6 +2376,10 @@
             },
             ".mbr-section-subtitle": {
               "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#666666",
+              "font-size": "25px"
             }
           },
           "_params": {
@@ -2437,7 +2452,7 @@
               "text-transform": "uppercase"
             },
             ".mbr-section-text": {
-              "font-size": "22px"
+              "font-size": "25px"
             }
           },
           "_params": {
@@ -2706,7 +2721,13 @@
         },
         {
           "_styles": {
-            ".form-control-label": {}
+            ".form-control-label": {},
+            ".mbr-section-subtitle": {
+              "font-size": "20px"
+            },
+            ".mbr-section-text": {
+              "font-size": "25px"
+            }
           },
           "_params": {
             "showCat1": true,
@@ -2945,7 +2966,11 @@
           "_anchor": "footer7-23"
         },
         {
-          "_styles": {},
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "font-size": "25px"
+            }
+          },
           "_params": {
             "showTitle": true,
             "showText": true,
@@ -3004,7 +3029,10 @@
         },
         {
           "_styles": {
-            ".form-control-label": {}
+            ".form-control-label": {},
+            ".mbr-section-subtitle": {
+              "font-size": "25px"
+            }
           },
           "_params": {
             "showCat1": true,
