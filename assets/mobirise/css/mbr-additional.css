@@ -1141,3 +1141,94 @@ blockquote {
 #contacts3-25 .mbr-section-subtitle {
   font-size: 25px;
 }
+#footer7-3z .mbr-section-subtitle {
+  font-size: 25px;
+}
+#menu-40 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-40 .navbar-caption {
+  color: #ffffff;
+  font-size: 32px;
+}
+#menu-40 .navbar-toggler {
+  color: #ffffff;
+}
+#menu-40 .close-icon::before,
+#menu-40 .close-icon::after {
+  background-color: #ffffff;
+}
+#menu-40 .link,
+#menu-40 .dropdown-item {
+  color: #ffffff;
+}
+#menu-40 .link {
+  font-size: 1.55rem;
+}
+#menu-40 .dropdown-item,
+#menu-40 .nav-dropdown-sm .link {
+  font-size: 1.679rem;
+}
+#menu-40 .link:hover,
+#menu-40 .link:focus {
+  color: #f39c12;
+}
+#menu-40 .dropdown-item:hover::before,
+#menu-40 .dropdown-item:focus::before {
+  background: #f39c12;
+}
+#menu-40 .dropdown-item:hover,
+#menu-40 .dropdown-item:focus {
+  color: #ffffff;
+}
+#menu-40 .link[aria-expanded="true"],
+#menu-40 .dropdown-menu {
+  background: #1a242f;
+}
+#menu-40 .nav-dropdown-sm .link:focus,
+#menu-40 .nav-dropdown-sm .link:hover,
+#menu-40 .nav-dropdown-sm .dropdown-item:focus,
+#menu-40 .nav-dropdown-sm .dropdown-item:hover {
+  background: #273646!important;
+}
+#menu-40 .navbar,
+#menu-40 .nav-dropdown-sm,
+#menu-40 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-40 .nav-dropdown-sm .dropdown-menu {
+  background: #2c3e50;
+}
+#menu-40 .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu-40 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-40 .bg-color.transparent.opened .link:hover,
+#menu-40 .bg-color.transparent.opened .link:focus {
+  color: #f39c12;
+}
+#menu-40 .link[aria-expanded="true"],
+#menu-40 .dropdown-item[aria-expanded="true"] {
+  color: #f39c12!important;
+}
+#header2-4e .mbr-section-title,
+#header2-4e .mbr-section-subtitle,
+#header2-4e .btn {
+  color: #fff;
+}
+#header2-4e .mbr-section-title {
+  font-weight: 700;
+}
+#header2-4e .mbr-section-subtitle {
+  font-size: 22px;
+}
+#contacts3-47 .form-control-label {
+  color: undefined;
+}
+#contacts3-47 .mbr-section-subtitle {
+  font-size: 20px;
+}
+#contacts3-47 .mbr-section-text {
+  font-size: 25px;
+}
