@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-05-03_1319",
-    "currentPage": "index.html",
+    "currentPage": "service.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -24,7 +24,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.1",
-    "uniqCompNum": 81,
+    "uniqCompNum": 143,
     "versionPublish": "4.7.1",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/3-128x85.png",
@@ -45,6 +45,61 @@
       },
       "components": [
         {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "32px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
           "_params": {
             "logo": false,
             "showBrand": true,
@@ -58,7 +113,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-12\">在线试听</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">立即加盟</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-12\">免费试听</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"service.html\">特色服务</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"join.html\">立即加盟</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -79,12 +134,7 @@
             "主题"
           ],
           "_name": "menu",
-          "_anchor": "menu-0",
-          "_customHTML": "<section class=\"menu1\" data-rv-view=\"0\">\n\n    <nav class=\"navbar navbar-dropdown transparent navbar-fixed-top bg-color\">\n        <div class=\"container-fluid\">\n\n            <div class=\"mbr-table\">\n                <div class=\"mbr-table-cell\">\n\n                    <div class=\"navbar-brand\">\n                        \n                        <a class=\"navbar-caption\" href=\"https://mobirise.com\">泉州智呼科技有限公司</a>\n                    </div>\n\n                </div>\n                <div class=\"mbr-table-cell\">\n\n                    <button class=\"navbar-toggler pull-xs-right hidden-md-up\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <span class=\"hamburger-icon\"></span>\n                    </button>\n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm\" id=\"exCollapsingNavbar\"><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"index.html#features1-12\" code-editable-id=\"190\">在线试听</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"page2.html\" code-editable-id=\"191\">立即加盟</a></li></ul>\n                    <button hidden=\"\" class=\"navbar-toggler navbar-close\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <span class=\"close-icon\"></span>\n                    </button>\n\n                </div>\n            </div>\n\n        </div>\n    </nav>\n\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": ".hide-buttons .nav-btn {\n  display: none !important;\n}\n.navbar-caption {\n  color: #ffffff;\n  font-size: 30px;\n}\n.navbar-toggler {\n  color: #ffffff;\n}\n.close-icon::before, .close-icon::after {\n  background-color: #ffffff;\n}\n.link, .dropdown-item {\n  color: #ffffff;\n}\n.link {\n  font-size: 0.875rem;\n}\n.dropdown-item, .nav-dropdown-sm .link {\n  font-size: 0.948rem;\n}\n.link:hover, .link:focus {\n  color: #f39c12;\n}\n.dropdown-item:hover::before, .dropdown-item:focus::before {\n  background: #f39c12;\n}\n.dropdown-item:hover, .dropdown-item:focus {\n  color: #ffffff;\n}\n.link[aria-expanded=\"true\"], .dropdown-menu {\n  background: #1a242f;\n}\n.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {\n  background: #273646!important;\n}\n.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu {\n  background: #2c3e50;\n}\n.bg-color.transparent .link {\n  color: #ffffff;\n  transition: none;\n}\n.bg-color.transparent.opened .link {\n  transition: color .2s ease-in-out;\n}\n.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {\n  color: #f39c12;\n}\n.link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"] {\n  color: #f39c12!important;\n}\n",
-          "_customTemplate": true
+          "_anchor": "menu-3y"
         },
         {
           "_params": {
@@ -272,6 +322,152 @@
           ],
           "_name": "features16",
           "_anchor": "features16-19"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": true,
+            "imageSize": 50,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/23-2000x1000.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/23-600x300.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "智呼机器人",
+          "subtitle1": "泉州智呼科技有限公司",
+          "caption1": "智呼机器人基于自然语言理解、大数据分析、云计算、建立智能决策反馈系统、训练适配业务场景的语言模型。采用文本挖掘技术，于海量对话数据中进行场景分类，句子感情分析，及情景词典构建等方式，构建完善的各种行业知识图谱，提升智呼机器人语义理解模块，适配不同场景下的应答响应。\n<br>  智呼机器人具有完善智能办公系统，可以一键导入拨打详单，自主分配拨打计划，根据需求设置拨打时间，拨打频率。\n<br>  具有深度记忆学习技术，将拨打过程中的通话内容全部录音并精准转化成文字，分别用户查看拨打效果。\n<br>  采用ASR,SLU,DM,NLG和TTS对话系统，大数据+云计算技术，人工专业话术的录制配音，使得拨打过程中客户收听到的每一句话都和真人一模一样充满感情和渲染力。\n<br>  后台会根据客户的意向度做出分类筛选，锁住精准客户。及时提醒用户，实时跟踪使用情况，大大提升了工作效率。&nbsp;<br>",
+          "number1": "1",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "features8",
+          "_anchor": "features8-2a"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "imageSize": 50,
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1112-1280x853.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/1112-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "产品组成",
+          "subtitle1": "泉州智呼科技有限公司",
+          "caption1": "1、\t语音识别（ASR)\n<br>2、\t文本生成\n<br>3、\t对话管理\n<br>4、\t口语理解\n<br>5、\t自然语言生成\n<br>6、\t智能办公系统\n<br>7、\t专业通信运营\n<br>8、\t大数据+云计算&nbsp;<br>",
+          "number1": "2",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\">watch now</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "features7",
+          "_anchor": "features7-2c"
         },
         {
           "_styles": {
@@ -908,7 +1104,7 @@
           ],
           "_name": "features1",
           "_anchor": "features1-13",
-          "_customHTML": "<section class=\"mbr-section mbr-section-hero features1 features4\" data-rv-view=\"199\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/02.jpg&quot;); padding-top: 0px; padding-bottom: 80px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(44, 62, 80);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center\">\n\n                    \n\n                </div>\n            </div>\n\n            <div class=\"mbr-cards-row row\">\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/01.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"69\">催款电话机器人</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"70\">高效合理催款，全年无休，针对性强。不能按时进行银行还款，又不喜欢被催的客户接到催款电话时情绪通常比较激动，用智呼催款电话机器人去承受这份压力是保护人类自尊的好选择。</p>\n\n<audio src=\"http://www.guiji.ai/media/file/force-money-360.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/02.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"71\">装修电话机器人</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"72\">意向客户自动打标，大幅缩减成本。减少装修的套路，多一点实惠和真诚。锁定精准客户，智呼装修电话机器人让客户与企业直接建立合作，高效率低成本。</p>\n\n<audio src=\"http://www.guiji.ai/media/file/force-fixture.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n                                \n                            </div>\n                        </div>\n                  </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/03.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"73\">电话机器人\n<div>（可打断功能）</div></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"74\">支持通话过程实时打断，并给予及时应答，确保对话正常进行，完全没有疏离感。</p>\n<audio src=\"http://www.guiji.ai/media/file/force-break.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n                \n            </div>\n\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero features1 features4\" data-rv-view=\"199\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/02.jpg&quot;); padding-top: 0px; padding-bottom: 80px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(44, 62, 80);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center\">\n\n                    \n\n                </div>\n            </div>\n\n            <div class=\"mbr-cards-row row\">\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/01.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"44\">催款电话机器人</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"45\">高效合理催款，全年无休，针对性强。不能按时进行银行还款，又不喜欢被催的客户接到催款电话时情绪通常比较激动，用智呼催款电话机器人去承受这份压力是保护人类自尊的好选择。</p>\n\n<audio src=\"http://www.guiji.ai/media/file/force-money-360.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/02.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"46\">装修电话机器人</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"47\">意向客户自动打标，大幅缩减成本。减少装修的套路，多一点实惠和真诚。锁定精准客户，智呼装修电话机器人让客户与企业直接建立合作，高效率低成本。</p>\n\n<audio src=\"http://www.guiji.ai/media/file/force-fixture.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n                                \n                            </div>\n                        </div>\n                  </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"card-img iconbox\"><img src=\"@PROJECT_PATH@/assets/images/03.jpg\" class=\"features-img\"></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"48\">电话机器人\n<div>（可打断功能）</div></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"49\">支持通话过程实时打断，并给予及时应答，确保对话正常进行，完全没有疏离感。</p>\n<audio src=\"http://www.guiji.ai/media/file/force-break.wav\" controls=\"controls\">\nYour browser does not support the audio tag.\n</audio>\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n                \n            </div>\n\n        </div>\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": ".mbr-section-title {\n  font-weight: 700;\n}\n.mbr-section-subtitle {\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  color: #fff;\n}\n",
@@ -1099,7 +1295,7 @@
           ],
           "_name": "pricing-table2",
           "_anchor": "pricing-table2-s",
-          "_customHTML": "<section class=\"mbr-section mbr-price-table price-table2 mbr-background\" data-rv-view=\"586\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/pricing-table-bg.jpg&quot;); padding-top: 120px; padding-bottom: 120px;\">\n\n    \n\n      <div class=\"container\">\n          <div class=\"row\">\n              <div class=\"col-xs-12 text-xs-center\">\n                  <h1 class=\"mbr-section-title main-title mbr-editable-content\" style=\"margin-bottom: 0.28em;\" code-editable-id=\"157\">效率对比</h1>\n                  <h5 class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"158\"> 人工与机器人.</h5>\n              </div>\n          </div>\n      </div>\n\n    <div class=\"mbr-section mbr-section-nopadding\">\n      <div class=\"row priceItem\">\n            <div class=\"col-xs-12 col-md-6 col-xl-6\">\n                <div class=\"mbr-plan card text-xs-center\">\n                    <div class=\"mbr-plan-header card-block default\">\n                      \n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"159\">人类员工</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                          <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"160\">¥</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"161\">6万</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"162\">/年</small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"163\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">客户筛选<strong>100-300通/天\n</strong></li><li class=\"list-group-item\">薪资待遇<strong>60000/年\n</strong></li><li class=\"list-group-item\"><strong>社保公积金国家规定\n</strong></li><li class=\"list-group-item\">其他福利 <strong>看公司实力\n</strong></li><li class=\"list-group-item\">情绪稳定性<strong>波动\n</strong></li><li class=\"list-group-item\">忠诚度<strong>难以控制\n</strong></li><li class=\"list-group-item\">招聘难易度<strong>难</strong></li></ul></div>\n                      \n                    </div>\n                </div>\n            </div>\n            <div class=\"col-xs-12 col-md-6 col-xl-6\" style=\"padding-left: 0px; padding-right: 0px;\">\n                <div class=\"mbr-plan card text-xs-center\" style=\"margin-top: -30px; padding-top: 30px; padding-bottom: 30px; margin-left: -2px; margin-right: -2px; background-color: rgb(255, 255, 255); z-index: 100;\">\n                    <div class=\"mbr-plan-header card-block popular\">\n                      <div class=\"mbr-plan-label bg-warning mbr-editable-content\" style=\"top: -14px;\" code-editable-id=\"164\">POPULAR</div>\n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"165\">机器人员工</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                            <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"166\">¥</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"167\">2.5万</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"168\">/年</small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"169\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">电话拨打量&nbsp;<strong>800-1000通/天\n</strong></li><li class=\"list-group-item\">薪资待遇 <strong>25000/年\n</strong></li><li class=\"list-group-item\">社保公积金<strong>不需要\n</strong></li><li class=\"list-group-item\">其他福利 <strong>不需要\n</strong></li><li class=\"list-group-item\">情绪稳定性<strong>稳定\n</strong></li><li class=\"list-group-item\">忠诚度 <strong>绝对忠诚\n</strong></li><li class=\"list-group-item\">招聘难易度<strong>易</strong></li></ul></div>\n                      \n                    </div>\n                </div>\n            </div>\n            \n            \n          </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-price-table price-table2 mbr-background\" data-rv-view=\"586\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/pricing-table-bg.jpg&quot;); padding-top: 120px; padding-bottom: 120px;\">\n\n    \n\n      <div class=\"container\">\n          <div class=\"row\">\n              <div class=\"col-xs-12 text-xs-center\">\n                  <h1 class=\"mbr-section-title main-title mbr-editable-content\" style=\"margin-bottom: 0.28em;\" code-editable-id=\"63\">效率对比</h1>\n                  <h5 class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"64\"> 人工与机器人.</h5>\n              </div>\n          </div>\n      </div>\n\n    <div class=\"mbr-section mbr-section-nopadding\">\n      <div class=\"row priceItem\">\n            <div class=\"col-xs-12 col-md-6 col-xl-6\">\n                <div class=\"mbr-plan card text-xs-center\">\n                    <div class=\"mbr-plan-header card-block default\">\n                      \n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"65\">人类员工</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                          <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"66\">¥</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"67\">6万</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"68\">/年</small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"69\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><strong>招工成本高\n</strong></li><li class=\"list-group-item\"><strong>培训时间长\n</strong></li><li class=\"list-group-item\"><strong>社保公积金国家规定\n</strong></li><li class=\"list-group-item\"> <strong>工作时间短\n</strong></li><li class=\"list-group-item\"><strong>工作效率低\n</strong></li><li class=\"list-group-item\"><strong>情绪波动大\n</strong></li><li class=\"list-group-item\"><strong>工作单调枯燥离职率高\n</strong></li><li class=\"list-group-item\"><strong>员工管理难</strong></li></ul></div>\n                      \n                    </div>\n                </div>\n            </div>\n            <div class=\"col-xs-12 col-md-6 col-xl-6\" style=\"padding-left: 0px; padding-right: 0px;\">\n                <div class=\"mbr-plan card text-xs-center\" style=\"margin-top: -30px; padding-top: 30px; padding-bottom: 30px; margin-left: -2px; margin-right: -2px; background-color: rgb(255, 255, 255); z-index: 100;\">\n                    <div class=\"mbr-plan-header card-block popular\">\n                      <div class=\"mbr-plan-label bg-warning mbr-editable-content\" style=\"top: -14px;\" code-editable-id=\"70\">POPULAR</div>\n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"71\">机器人员工</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                            <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"72\">¥</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"73\">2.5万</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"74\">/年</small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"75\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">&nbsp;<strong>价格低\n</strong></li><li class=\"list-group-item\"> <strong>无需培训直接上岗个个都是电销精英\n</strong></li><li class=\"list-group-item\"><strong>365天不间断工作，无需休息\n</strong></li><li class=\"list-group-item\"> <strong>每时每刻充满激情，情绪饱满不会波动\n</strong></li><li class=\"list-group-item\"><strong>自动统计，条理清晰\n</strong></li><li class=\"list-group-item\"> <strong>工作效率高，每天可以呼出1000个左右电销电话\n</strong></li><li class=\"list-group-item\"><strong>管理简单,使用方便</strong></li></ul></div>\n                      \n                    </div>\n                </div>\n            </div>\n            \n            \n          </div>\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": ".mbr-section__container .mbr-section-title {\n  color: #fff;\n}\n.mbr-section__container .mbr-section-subtitle {\n  color: #a0a0a0;\n}\n",
@@ -1225,7 +1421,7 @@
           ],
           "_name": "features2",
           "_anchor": "features2-3",
-          "_customHTML": "<section class=\"mbr-section mbr-section-hero features4\" data-rv-view=\"8\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/03.jpg&quot;); padding-top: 80px; padding-bottom: 80px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(52, 152, 219);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"177\">智呼智能电话销售专家</h1>\n\n                </div>\n            </div>\n\n            <div class=\"mbr-cards-row row\">\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"178\">降低成本提高效率</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"179\">用雇佣人工成本的一半雇佣智呼智能电话机器人智呼办公，可以做到24小时全时段工作，无需投入人力进行招聘和培训，更不会因外界影响影响到效率</p>\n\n\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-edit mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"180\">情绪饱满不会波动</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"181\">每一个种类的智呼电话机器人都能做到与客户亲切互动，声音甜美，没有加班抱怨，没有情绪波动</p>\n\n\n                            </div>\n                        </div>\n                  </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-briefcase mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"182\">自动统计条理清晰<br>\n<div>\n</div><div>智呼作为电销机器人可以准确了解客户购买意向程度，自动将意向客户进行分类，无需转接人工，高效留住客户，智能回答客户提出的问题</div></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"183\"></p>\n\n\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n                \n            </div>\n\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero features4\" data-rv-view=\"8\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/03.jpg&quot;); padding-top: 80px; padding-bottom: 80px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(52, 152, 219);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"83\">智呼智能电话销售专家</h1>\n\n                </div>\n            </div>\n\n            <div class=\"mbr-cards-row row\">\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"84\">降低成本提高效率</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"85\">用雇佣人工成本的一半雇佣智呼智能电话机器人智呼办公，可以做到24小时全时段工作，无需投入人力进行招聘和培训，更不会因外界影响影响到效率</p>\n\n\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-edit mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"86\">情绪饱满不会波动</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"87\">每一个种类的智呼电话机器人都能做到与客户亲切互动，声音甜美，没有加班抱怨，没有情绪波动</p>\n\n\n                            </div>\n                        </div>\n                  </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-briefcase mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"88\">自动统计条理清晰<br>\n<div>\n</div><div>智呼作为电销机器人可以准确了解客户购买意向程度，自动将意向客户进行分类，无需转接人工，高效留住客户，智能回答客户提出的问题</div></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"89\"></p>\n\n\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n                \n            </div>\n\n        </div>\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": ".mbr-section-title {\n  font-weight: 700;\n}\n.mbr-section-subtitle {\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  color: #fff;\n}\n",
@@ -1696,16 +1892,79 @@
         }
       ]
     },
-    "page2.html": {
+    "service.html": {
       "settings": {
-        "title": "智呼全自动电话机器人加盟",
-        "meta_descr": "智呼全自动电话机器人",
+        "title": "智呼全自动电话机器人服务",
+        "meta_descr": "智呼全自动电话机器人服务",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 2
+        "order": 3
       },
       "components": [
+        {
+          "_styles": {},
+          "_params": {
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#333333",
+            "overlay": true,
+            "overlayColor": "#f7f7f7",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/colorm_logo_b.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "success",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true
+            }
+          },
+          "title1": "product",
+          "text11": "Popular",
+          "text12": "Trending",
+          "text13": "Catalog",
+          "text14": "Awesome",
+          "text15": "Best",
+          "title2": "company",
+          "text21": "Press",
+          "text22": "Features",
+          "text23": "Mission",
+          "text24": "Strategy",
+          "text25": "Works",
+          "title3": "Learn more",
+          "text31": "Support",
+          "text32": "Developers",
+          "text33": "Service",
+          "text34": "Starter pack",
+          "text35": "FAQ",
+          "titled1": "<a href=\"tel:+8618016585658\" class=\"text-success\">18016585658 </a> 刘经理&nbsp;<br><br><br>",
+          "titled2": "<a href=\"tel:+8613625945830\" class=\"text-success\">13625945830</a> 吴经理",
+          "titled3": "<a href=\"tel:059588165658\" class=\"text-success\">0595-88165658</a> 总机",
+          "followtext": "follow us",
+          "text": "Copyright (c) 2016泉州智呼科技有限公司",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "footer7",
+          "_anchor": "footer7-2e"
+        },
         {
           "_styles": {
             ".hide-buttons .nav-btn": {
@@ -1713,7 +1972,7 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-size": "30px"
+              "font-size": "32px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -1775,7 +2034,795 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-12\">在线试听</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">立即加盟</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-12\">免费试听</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"service.html\">特色服务</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"join.html\">立即加盟</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">泉州智呼科技有限公司</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-3y"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff",
+              "font-size": "20px"
+            },
+            ".mbr-section-text": {
+              "font-size": "22px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": true,
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": "0",
+            "columns": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1112-1280x853.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#3498db",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#3498db",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "website-theme",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "bulleted-list",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "users",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title": "专属团队贴心服务",
+          "title1": "Bootstrap 4",
+          "subtitle1": "•\t产品使用培训",
+          "caption1": "•指派专人进行产品的现场使用培训，保障每一位客户都能正常使用。",
+          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title2": "Responsive",
+          "subtitle2": "•\t话术库录入以及优化",
+          "caption2": "•\t话术数据库建立初始，安排专人协助制作，并给出针对性建议。",
+          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title3": "Web Fonts",
+          "subtitle3": "•\t7X24小时保姆式服务",
+          "caption3": "•\t指派专人进行产品的现场使用培训，保障每一位客户都能正常使",
+          "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "buttons5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "features2",
+          "_anchor": "features2-2h"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff",
+              "font-size": "20px"
+            },
+            ".mbr-section-text": {
+              "font-size": "22px"
+            }
+          },
+          "_params": {
+            "showTitle": false,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": true,
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "columns": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/4445-1920x720.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#3498db",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#3498db",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "devices",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "hearth",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "globe-2",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title": "Features",
+          "title1": "Bootstrap 4",
+          "subtitle1": "•\t后期运维复盘",
+          "caption1": "•\t维护人员上门复盘部署后系统运维情况，并给出优化建议",
+          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title2": "Responsive",
+          "subtitle2": "•\t季度健康检查",
+          "caption2": "•\t定期对部署后的系统全面检查，保障系统稳定运行",
+          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title3": "Web Fonts",
+          "subtitle3": "•\t年度系统升级",
+          "caption3": "•\t根据客户需求，对部署系统进行定期升级服务",
+          "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "buttons5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "features2",
+          "_anchor": "features2-2i"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": true,
+            "imageSize": 50,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/c06f51a85ef707803171cff66bce1bb5-564x518.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "智能语音机器人，电话销售与客服一站式解决",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "•\t只需一键，即可将大量的未知客户资料提交给机器人，无需人工重复操作。\n<br>•\t可将不同的场景话术提交给机器人，机器人将读取相关数据，并成为相关领域的销售精英\n<br>•\t机器人根据不同领域的销售或客服话术，与客户互动，从大量的客户资料中，筛选出可能的意向客户并进行分类。\n<br>•\t最后销售或客服人员根据机器人的数据分析以及通话记录进行有效的二次跟进。&nbsp;<br>",
+          "number1": "1",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "features8",
+          "_anchor": "features8-2j"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "imageSize": "41",
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/000f5a2d8f1abd2c2aa1ef798df20226-600x336.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "真人语音群呼，更好的销售与客服体验",
+          "subtitle1": "。",
+          "caption1": "帮助用户制定标准化服务，同时节省80%以上的时间并提高6倍以上的效率。帮助用户制定标准化服务，同时节省80%以上的时间并提高6倍以上的效率",
+          "number1": "2",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\">watch now</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "features7",
+          "_anchor": "features7-2k"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showNumber": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": true,
+            "imageSize": 50,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/8477a71eed1ec5c2179c7bf58f3e47e7-600x404.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "话术场景库",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "机器人随时切换行业专家\n<br>可在话术场景库中自行添加复杂的话术场景，机器人将会根据相应的场景和项目切换成不同的行业专家进行相应的销售方式或回答,。&nbsp;<br>",
+          "number1": "1",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "features8",
+          "_anchor": "features8-2m"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff",
+              "font-size": "20px"
+            },
+            ".mbr-section-text": {
+              "font-size": "22px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": true,
+            "showButtons": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/4445-1920x720.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#51b9bc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#51b9bc",
+            "overlayOpacity": 0.9
+          },
+          "title": "深层次标签化CRM系统，最大限度提升销售管理效率",
+          "title1": "Bootstrap 4",
+          "subtitle1": "&nbsp;客户资料批量操作",
+          "caption1": "根据行业、地域等属性批量上传，并可设置权限批量导出功能。",
+          "title2": "Responsive",
+          "subtitle2": "各类信息精准搜索",
+          "caption2": "&nbsp;信息标签化分类后，用户可根据任何标签名称进行查询搜索。",
+          "title3": "Web Fonts",
+          "subtitle3": "&nbsp;信息标签化过滤",
+          "caption3": "&nbsp;系统根据设定规则的不同纬度对客户资料进行分类如：意向度、通话时长等。",
+          "title4": "Unlimited Sites",
+          "subtitle4": "&nbsp;公私海灵活运用",
+          "caption4": "&nbsp;为企业设定公正的销售平台。避免内部人员撞单内耗。",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">免费试听</a>",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "edit",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "features4",
+          "_anchor": "features4-2n"
+        },
+        {
+          "_styles": {
+            ".form-control-label": {}
+          },
+          "_params": {
+            "showCat1": true,
+            "showCat2": true,
+            "showCat3": true,
+            "showText": true,
+            "showButtons": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "title1": "晋江世纪大道御景花园1栋8-9号店",
+          "title2": "18016585658  刘\n<div>13625945830  吴\n</div><div>0595-88165658</div>",
+          "title3": "zhihu668@foxmail.com",
+          "cat1": "地址",
+          "cat2": "phone",
+          "cat3": "email",
+          "text": "泉州智呼科技有限公司",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>",
+          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">联系我们</a>",
+          "form": {
+            "action": "32397729@qq.com",
+            "alerts": {
+              "success": "谢谢"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "姓名"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "邮箱"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "电话"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "留言"
+              }
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-2g"
+        }
+      ]
+    },
+    "join.html": {
+      "settings": {
+        "title": "智呼全自动电话机器人加盟",
+        "meta_descr": "智呼全自动电话机器人",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "32px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2c3e50",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-12\">免费试听</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"service.html\">特色服务</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"join.html\">立即加盟</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
