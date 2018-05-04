@@ -887,9 +887,27 @@ blockquote {
   letter-spacing: 2px;
   color: #fff;
 }
+#counters1-n P {
+  font-size: 22px;
+}
+#counters1-n H3 {
+  font-size: 22px;
+}
+#counters1-n H2 {
+  font-size: 60px;
+}
+#content2-x DIV {
+  font-size: 22px;
+}
 #content3-11 .mbr-section-title,
 #content3-11 .mbr-section-subtitle {
   text-align: center;
+}
+#footer7-17 .mbr-section-subtitle {
+  font-size: 25px;
+}
+#footer7-2e .mbr-section-subtitle {
+  font-size: 25px;
 }
 #menu-3y .hide-buttons .nav-btn {
   display: none !important;
@@ -995,11 +1013,17 @@ blockquote {
 #features7-2k .mbr-section-subtitle {
   text-transform: uppercase;
 }
+#features7-2k .mbr-section-text {
+  font-size: 22px;
+}
 #features8-2m .lead {
   color: #9fa3a7;
 }
 #features8-2m .mbr-section-subtitle {
   text-transform: uppercase;
+}
+#features8-2m .mbr-section-text {
+  font-size: 24px;
 }
 #features4-2n .mbr-section-title {
   font-weight: 700;
@@ -1083,6 +1107,9 @@ blockquote {
 #menu-1p .link[aria-expanded="true"],
 #menu-1p .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
+}
+#footer7-23 .mbr-section-subtitle {
+  font-size: 25px;
 }
 #contacts3-25 .form-control-label {
   color: undefined;

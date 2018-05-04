@@ -1421,14 +1421,24 @@
           ],
           "_name": "features2",
           "_anchor": "features2-3",
-          "_customHTML": "<section class=\"mbr-section mbr-section-hero features4\" data-rv-view=\"8\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/03.jpg&quot;); padding-top: 80px; padding-bottom: 80px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(52, 152, 219);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"83\">智呼智能电话销售专家</h1>\n\n                </div>\n            </div>\n\n            <div class=\"mbr-cards-row row\">\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"84\">降低成本提高效率</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"85\">用雇佣人工成本的一半雇佣智呼智能电话机器人智呼办公，可以做到24小时全时段工作，无需投入人力进行招聘和培训，更不会因外界影响影响到效率</p>\n\n\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-edit mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"86\">情绪饱满不会波动</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"87\">每一个种类的智呼电话机器人都能做到与客户亲切互动，声音甜美，没有加班抱怨，没有情绪波动</p>\n\n\n                            </div>\n                        </div>\n                  </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-briefcase mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"88\">自动统计条理清晰<br>\n<div>\n</div><div>智呼作为电销机器人可以准确了解客户购买意向程度，自动将意向客户进行分类，无需转接人工，高效留住客户，智能回答客户提出的问题</div></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"89\"></p>\n\n\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n                \n            </div>\n\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero features4\" data-rv-view=\"8\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/03.jpg&quot;); padding-top: 80px; padding-bottom: 80px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(52, 152, 219);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"45\">智呼智能电话销售专家</h1>\n\n                </div>\n            </div>\n\n            <div class=\"mbr-cards-row row\">\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"46\">降低成本提高效率</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" style=\"font-size: 22px;\" code-editable-id=\"47\">用雇佣人工成本的一半雇佣智呼智能电话机器人智呼办公，可以做到24小时全时段工作，无需投入人力进行招聘和培训，更不会因外界影响影响到效率</p>\n\n\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-edit mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"48\">情绪饱满不会波动</h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" style=\"font-size: 22px;\" code-editable-id=\"49\">每一个种类的智呼电话机器人都能做到与客户亲切互动，声音甜美，没有加班抱怨，没有情绪波动</p>\n\n\n                            </div>\n                        </div>\n                  </div>\n                </div>\n                <div class=\"mbr-cards-col col-xs-12 col-lg-4\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            <div class=\"mbr-figure-background\"></div>\n                            <div class=\"card-img iconbox\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-briefcase mbr-iconfont mbr-iconfont-features4\" style=\"color: rgb(255, 255, 255);\"></a></div>\n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"50\">自动统计条理清晰<br>\n<div>\n</div><div>智呼作为电销机器人可以准确了解客户购买意向程度，自动将意向客户进行分类，无需转接人工，高效留住客户，智能回答客户提出的问题</div></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"51\"></p>\n\n\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n                \n            </div>\n\n        </div>\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_customCSS": ".mbr-section-title {\n  font-weight: 700;\n}\n.mbr-section-subtitle {\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  color: #fff;\n}\n",
+          "_customCSS": "@import url(undefined);\n.mbr-section-title {\n  font-weight: 700;\n}\n.mbr-section-subtitle {\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  color: #fff;\n}\n",
           "_customTemplate": true
         },
         {
-          "_styles": {},
+          "_styles": {
+            "P": {
+              "font-size": "22px"
+            },
+            "H3": {
+              "font-size": "22px"
+            },
+            "H2": {
+              "font-size": "60px"
+            }
+          },
           "_params": {
             "showTitles": true,
             "showText": true,
@@ -1477,7 +1487,12 @@
             "主题"
           ],
           "_name": "content2",
-          "_anchor": "content2-x"
+          "_anchor": "content2-x",
+          "_styles": {
+            "DIV": {
+              "font-size": "22px"
+            }
+          }
         },
         {
           "_inherit": "gallery1",
@@ -1828,7 +1843,11 @@
           "_anchor": "gallery2-d"
         },
         {
-          "_styles": {},
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "font-size": "25px"
+            }
+          },
           "_params": {
             "showButtons": false,
             "paddingTop": 2,
@@ -1879,7 +1898,7 @@
           "text35": "FAQ",
           "titled1": "<a href=\"tel:+8618016585658\" class=\"text-success\">18016585658 </a> 刘经理&nbsp;<br><br><br>",
           "titled2": "<a href=\"tel:+8613625945830\" class=\"text-success\">13625945830</a> 吴经理",
-          "titled3": "<a href=\"tel:059588165658\" class=\"text-success\">0595-88165658</a> 总机",
+          "titled3": "<a href=\"tel:059588165658\" class=\"text-success\">0595-88165658</a> 总机<br>泉州晋江御景花园1栋8-9号店<br>",
           "followtext": "follow us",
           "text": "Copyright (c) 2016泉州智呼科技有限公司",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
@@ -1903,7 +1922,11 @@
       },
       "components": [
         {
-          "_styles": {},
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "font-size": "25px"
+            }
+          },
           "_params": {
             "showButtons": false,
             "paddingTop": 2,
@@ -1954,7 +1977,7 @@
           "text35": "FAQ",
           "titled1": "<a href=\"tel:+8618016585658\" class=\"text-success\">18016585658 </a> 刘经理&nbsp;<br><br><br>",
           "titled2": "<a href=\"tel:+8613625945830\" class=\"text-success\">13625945830</a> 吴经理",
-          "titled3": "<a href=\"tel:059588165658\" class=\"text-success\">0595-88165658</a> 总机",
+          "titled3": "<a href=\"tel:059588165658\" class=\"text-success\">0595-88165658</a> 总机<br>泉州晋江御景花园1栋8-9号店<br>",
           "followtext": "follow us",
           "text": "Copyright (c) 2016泉州智呼科技有限公司",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
@@ -2410,6 +2433,9 @@
             },
             ".mbr-section-subtitle": {
               "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "font-size": "22px"
             }
           },
           "_params": {
@@ -2480,6 +2506,9 @@
             },
             ".mbr-section-subtitle": {
               "text-transform": "uppercase"
+            },
+            ".mbr-section-text": {
+              "font-size": "24px"
             }
           },
           "_params": {
@@ -2846,7 +2875,11 @@
           "_anchor": "menu-1p"
         },
         {
-          "_styles": {},
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "font-size": "25px"
+            }
+          },
           "_params": {
             "showButtons": false,
             "paddingTop": 2,
@@ -2897,7 +2930,7 @@
           "text35": "FAQ",
           "titled1": "<a href=\"tel:+8618016585658\" class=\"text-success\">18016585658 </a> 刘经理&nbsp;<br><br><br>",
           "titled2": "<a href=\"tel:+8613625945830\" class=\"text-success\">13625945830</a> 吴经理",
-          "titled3": "<a href=\"tel:059588165658\" class=\"text-success\">0595-88165658</a> 总机",
+          "titled3": "<a href=\"tel:059588165658\" class=\"text-success\">0595-88165658</a> 总机<br>泉州晋江御景花园1栋8-9号店<br>",
           "followtext": "follow us",
           "text": "Copyright (c) 2016泉州智呼科技有限公司",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
