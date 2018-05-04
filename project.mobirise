@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-05-03_1319",
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -50,7 +50,8 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "30px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -346,10 +347,10 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "columns": "3",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/03.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/2-1920x900.jpg",
             "parallax": false,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#9b59b6",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -480,18 +481,18 @@
             "showImages": false,
             "showTitles": true,
             "tabs": "5",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/04.jpg",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/34-800x333.jpg",
             "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
             "overlayColor": "#ecf0f1",
-            "overlayOpacity": 0.9
+            "overlayOpacity": "0.5"
           },
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
           "title": "<br>全自动电话机器人",
@@ -1761,7 +1762,8 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "30px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
