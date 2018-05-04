@@ -63,10 +63,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.875rem"
+              "font-size": "1.55rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.948rem"
+              "font-size": "1.679rem"
             },
             ".link:hover, .link:focus": {
               "color": "@primaryColor"
@@ -101,14 +101,14 @@
             }
           },
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "hideButtons": true,
             "sticky": true,
             "collapsed": true,
             "transparent": true,
             "bgColor": "#2c3e50",
-            "fontSize": 0.875,
+            "fontSize": "1.55",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
@@ -117,10 +117,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/d042206-364x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "https://mobirise.com",
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -2007,10 +2008,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.875rem"
+              "font-size": "1.55rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.948rem"
+              "font-size": "1.679rem"
             },
             ".link:hover, .link:focus": {
               "color": "@primaryColor"
@@ -2045,14 +2046,14 @@
             }
           },
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "hideButtons": true,
             "sticky": true,
             "collapsed": true,
             "transparent": true,
             "bgColor": "#2c3e50",
-            "fontSize": 0.875,
+            "fontSize": "1.55",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
@@ -2061,10 +2062,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/d042206-364x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "https://mobirise.com",
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -2801,10 +2803,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.875rem"
+              "font-size": "1.55rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.948rem"
+              "font-size": "1.679rem"
             },
             ".link:hover, .link:focus": {
               "color": "@primaryColor"
@@ -2839,14 +2841,14 @@
             }
           },
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "hideButtons": true,
             "sticky": true,
             "collapsed": true,
             "transparent": true,
             "bgColor": "#2c3e50",
-            "fontSize": 0.875,
+            "fontSize": "1.55",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
@@ -2855,10 +2857,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/d042206-364x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "https://mobirise.com",
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
