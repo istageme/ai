@@ -939,3 +939,6 @@ blockquote {
 #menu-1p .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
 }
+#contacts3-25 .form-control-label {
+  color: undefined;
+}
