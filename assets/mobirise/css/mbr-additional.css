@@ -787,6 +787,9 @@ blockquote {
   text-align: center;
   font-size: 25px;
 }
+#slider-g .mbr-section-title {
+  font-size: 60px;
+}
 #features16-19 .mbr-section-title {
   font-weight: 700;
   letter-spacing: .5vw;
@@ -1052,9 +1055,6 @@ blockquote {
 #features4-2n .mbr-section-text {
   font-size: 22px;
 }
-#contacts3-2g .form-control-label {
-  color: undefined;
-}
 #contacts3-2g .mbr-section-subtitle {
   font-size: 20px;
 }
@@ -1134,9 +1134,6 @@ blockquote {
 }
 #intro1-24 .mbr-section-subtitle {
   font-size: 25px;
-}
-#contacts3-25 .form-control-label {
-  color: undefined;
 }
 #contacts3-25 .mbr-section-subtitle {
   font-size: 25px;
@@ -1222,9 +1219,6 @@ blockquote {
 }
 #header2-4e .mbr-section-subtitle {
   font-size: 22px;
-}
-#contacts3-47 .form-control-label {
-  color: undefined;
 }
 #contacts3-47 .mbr-section-subtitle {
   font-size: 20px;
