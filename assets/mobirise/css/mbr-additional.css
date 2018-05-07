@@ -1,6 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i);
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+
 
 
 
@@ -785,10 +788,16 @@ blockquote {
 }
 #slider-g .mbr-section-text {
   text-align: center;
-  font-size: 25px;
+  font-size: 36px;
 }
 #slider-g .mbr-section-title {
-  font-size: 60px;
+  font-size: 72px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ecf0f1;
+  text-align: center;
+}
+#slider-g .btn {
+  font-size: 24px;
 }
 #features16-19 .mbr-section-title {
   font-weight: 700;
@@ -822,6 +831,7 @@ blockquote {
 }
 #features7-2c .mbr-section-text {
   color: #000000;
+  font-size: 20px;
 }
 #features2-28 .mbr-section-title {
   font-weight: 700;
@@ -849,6 +859,7 @@ blockquote {
 }
 #header9-p P {
   font-size: 22px;
+  color: #000000;
 }
 #features1-12 .mbr-section-title {
   font-weight: 700;
@@ -880,6 +891,7 @@ blockquote {
 }
 #header5-q .mbr-section-title {
   margin-bottom: 60px;
+  text-align: center;
 }
 #header5-q .nav-tabs {
   margin-top: 90px;
@@ -912,16 +924,34 @@ blockquote {
 }
 #content2-x DIV {
   font-size: 22px;
+  color: #000000;
 }
 #content3-11 .mbr-section-title,
 #content3-11 .mbr-section-subtitle {
   text-align: center;
 }
+#content3-11 H3 {
+  font-family: 'PT Serif', serif;
+  font-size: 60px;
+}
+#content3-4k .mbr-section-title,
+#content3-4k .mbr-section-subtitle {
+  text-align: center;
+}
+#content3-4k H3 {
+  color: #ecf0f1;
+  text-align: right;
+}
+#content3-4k P {
+  color: #ecf0f1;
+}
 #footer7-17 .mbr-section-subtitle {
-  font-size: 25px;
+  font-size: 24px;
+  text-align: center;
 }
 #footer7-2e .mbr-section-subtitle {
-  font-size: 25px;
+  font-size: 24px;
+  text-align: center;
 }
 #menu-3y .hide-buttons .nav-btn {
   display: none !important;
@@ -1022,7 +1052,7 @@ blockquote {
   text-transform: uppercase;
 }
 #features8-2j .mbr-section-text {
-  color: #666666;
+  color: #222222;
   font-size: 25px;
 }
 #features7-2k .lead {
@@ -1033,6 +1063,7 @@ blockquote {
 }
 #features7-2k .mbr-section-text {
   font-size: 25px;
+  color: #222222;
 }
 #features8-2m .lead {
   color: #9fa3a7;
@@ -1042,6 +1073,7 @@ blockquote {
 }
 #features8-2m .mbr-section-text {
   font-size: 24px;
+  color: #222222;
 }
 #features4-2n .mbr-section-title {
   font-weight: 700;
@@ -1050,10 +1082,13 @@ blockquote {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
 }
 #features4-2n .mbr-section-text {
   font-size: 22px;
+}
+#contacts3-2g .form-control-label {
+  color: undefined;
 }
 #contacts3-2g .mbr-section-subtitle {
   font-size: 20px;
@@ -1130,16 +1165,21 @@ blockquote {
   color: #f39c12!important;
 }
 #footer7-23 .mbr-section-subtitle {
-  font-size: 25px;
+  font-size: 24px;
+  text-align: center;
 }
 #intro1-24 .mbr-section-subtitle {
   font-size: 25px;
+}
+#contacts3-25 .form-control-label {
+  color: undefined;
 }
 #contacts3-25 .mbr-section-subtitle {
   font-size: 25px;
 }
 #footer7-3z .mbr-section-subtitle {
-  font-size: 25px;
+  font-size: 24px;
+  text-align: center;
 }
 #menu-40 .hide-buttons .nav-btn {
   display: none !important;
@@ -1218,7 +1258,16 @@ blockquote {
   font-weight: 700;
 }
 #header2-4e .mbr-section-subtitle {
-  font-size: 22px;
+  font-size: 25px;
+}
+#testimonials3-4m .mbr-section-text {
+  color: #222222;
+}
+#testimonials3-4n .mbr-section-text {
+  color: #000000;
+}
+#contacts3-47 .form-control-label {
+  color: undefined;
 }
 #contacts3-47 .mbr-section-subtitle {
   font-size: 20px;

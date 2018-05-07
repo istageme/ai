@@ -20,11 +20,13 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#222222"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.1",
-    "uniqCompNum": 164,
+    "uniqCompNum": 168,
     "versionPublish": "4.7.1",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/3-128x85.png",
@@ -113,15 +115,16 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"intro.html\">公司介绍</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-12\">免费试听</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"service.html\">特色服务</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"join.html\">立即加盟</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"intro.html\">首页</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"intro.html\">公司介绍</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-12\">免费试听</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"service.html\">特色服务</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"join.html\">立即加盟</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/d042206-364x128.png",
+              "src": "@PROJECT_PATH@/assets/images/d042206-466x122.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -156,16 +159,16 @@
                 "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
-                "title": "科技引领时代  智呼创造财富&nbsp;",
+                "title": "科技引领时代 &nbsp; 智呼创造财富&nbsp;",
                 "overlay": true,
                 "overlayOpacity": "0.6",
-                "text": "“智呼” 智能语音机器人 客户使用反馈：  成本降低80%  效率提高200%  高效能 低成本&nbsp;",
+                "text": "“智呼” 智能语音机器人 客户使用反馈：成本降低80%  效率提高200%  高效能 &nbsp; &nbsp; 低成本&nbsp;",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"index.html#features1-12\" data-toolbar=\"-mbrBtnMove\">在线试听</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">立即加盟</a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/1-1920x700.jpg",
-                "contentAlign": "left",
-                "active": false,
+                "contentAlign": "center",
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -173,13 +176,13 @@
                 "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
                 "title": "电销精英等你来雇",
                 "overlay": true,
-                "text": "支持转人、支持打断、高效能低成本、不知疲倦、永不离职",
+                "text": "支持转人、支持打断、高效能低成本、<br>不知疲倦、永不离职",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html#features1-12\" data-toolbar=\"-mbrBtnMove\">在线试听</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">立即加盟</a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/23-2000x1000.jpg",
                 "contentAlign": "center",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -205,10 +208,17 @@
           "_styles": {
             ".mbr-section-text": {
               "text-align": "center",
-              "font-size": "25px"
+              "font-size": "36px"
             },
             ".mbr-section-title": {
-              "font-size": "60px"
+              "font-size": "72px",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "color": "#ecf0f1",
+              "text-align": "center"
+            },
+            ".btn": {
+              "font-size": "24px"
             }
           }
         },
@@ -319,7 +329,7 @@
               "family": "cm-icon"
             }
           },
-          "title": "电话销售中是否遇到这些?",
+          "title": "电话销售中是否遇到<br>这些?",
           "title1": "Bootstrap 4",
           "subtitle1": "情绪波动大，工作状态差",
           "caption1": "话务员无法长时间保持工作热情，遇到恶劣对话情景时易产生情绪波动，长期压抑情绪、丧失工作热情，陷入效率低下成本升高的恶性循环",
@@ -429,7 +439,8 @@
               "text-transform": "uppercase"
             },
             ".mbr-section-text": {
-              "color": "#000000"
+              "color": "#000000",
+              "font-size": "20px"
             }
           },
           "_params": {
@@ -645,7 +656,8 @@
               "color": "#000"
             },
             "P": {
-              "font-size": "22px"
+              "font-size": "22px",
+              "color": "#000000"
             }
           },
           "_params": {
@@ -676,7 +688,7 @@
           "title4": "口语理解（SLU）",
           "title5": "自然语音生成（NLG)",
           "title6": "CONTACT FORMS",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header9-p\" aria-expanded=\"false\">语音识别（ASR）</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header9-p\" aria-expanded=\"false\">文本生成语音（TTS）</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header9-p\" aria-expanded=\"true\">对话管理（DM）</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header9-p\" aria-expanded=\"false\">口语理解（SLU）</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header9-p\" aria-expanded=\"false\">自然语音生成（NLG)</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header9-p\">Beautiful</a></li>",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header9-p\" aria-expanded=\"false\">语音识别（ASR）</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header9-p\" aria-expanded=\"true\">文本生成语音（TTS）</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header9-p\" aria-expanded=\"true\">对话管理（DM）</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header9-p\" aria-expanded=\"false\">口语理解（SLU）</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header9-p\" aria-expanded=\"false\">自然语音生成（NLG)</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header9-p\">Beautiful</a></li>",
           "media11": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/34-1-800x333.jpg",
@@ -1151,7 +1163,8 @@
               "color": "#fff"
             },
             ".mbr-section-title": {
-              "margin-bottom": "60px"
+              "margin-bottom": "60px",
+              "text-align": "center"
             },
             ".nav-tabs": {
               "margin-top": "90px"
@@ -1179,14 +1192,14 @@
             "overlayOpacity": 0.9
           },
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
-          "title": "精心打造，追求卓越",
+          "title": "精心打造 &nbsp; &nbsp;追求卓越",
           "title1": "产品基于自然语言理解",
           "title2": "支持打断",
           "title3": "人工转接",
           "title4": "快速适配，高度定制",
           "title5": "全平台解决方案",
           "title6": "CONTACT FORMS",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header5-q\" aria-expanded=\"false\">产品基于自然语言理解</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header5-q\" aria-expanded=\"true\">支持打断</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header5-q\" aria-expanded=\"false\"><b>人工转接</b></a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header5-q\" aria-expanded=\"false\">快速适配，高度定制</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header5-q\" aria-expanded=\"true\">全平台解决方案</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header5-q\">Beautiful</a></li>",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header5-q\" aria-expanded=\"false\">产品基于自然语言理解</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header5-q\" aria-expanded=\"false\">支持打断</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header5-q\" aria-expanded=\"false\"><b>人工转接</b></a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header5-q\" aria-expanded=\"false\">快速适配，高度定制</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header5-q\" aria-expanded=\"true\">全平台解决方案</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header5-q\">Beautiful</a></li>",
           "media1": {
             "iconFont": {
               "active": true,
@@ -1325,10 +1338,10 @@
           ],
           "_name": "pricing-table2",
           "_anchor": "pricing-table2-s",
-          "_customHTML": "<section class=\"mbr-section mbr-price-table price-table2 mbr-background\" data-rv-view=\"586\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/pricing-table-bg.jpg&quot;); padding-top: 120px; padding-bottom: 120px;\">\n\n    \n\n      <div class=\"container\">\n          <div class=\"row\">\n              <div class=\"col-xs-12 text-xs-center\">\n                  <h1 class=\"mbr-section-title main-title mbr-editable-content\" style=\"margin-bottom: 0.28em;\" code-editable-id=\"112\">效率对比</h1>\n                  <h5 class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"113\"> 人工与机器人.</h5>\n              </div>\n          </div>\n      </div>\n\n    <div class=\"mbr-section mbr-section-nopadding\">\n      <div class=\"row priceItem\">\n            <div class=\"col-xs-12 col-md-6 col-xl-6\">\n                <div class=\"mbr-plan card text-xs-center\">\n                    <div class=\"mbr-plan-header card-block default\">\n                      \n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"114\">人类员工</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                          <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"115\">¥</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"116\">6万</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"117\">/年</small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"118\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><strong>招工成本高\n</strong></li><li class=\"list-group-item\"><strong>培训时间长\n</strong></li><li class=\"list-group-item\"><strong>社保公积金国家规定\n</strong></li><li class=\"list-group-item\"> <strong>工作时间短\n</strong></li><li class=\"list-group-item\"><strong>工作效率低\n</strong></li><li class=\"list-group-item\"><strong>情绪波动大\n</strong></li><li class=\"list-group-item\"><strong>工作单调枯燥离职率高\n</strong></li><li class=\"list-group-item\"><strong>员工管理难</strong></li></ul></div>\n                      \n                    </div>\n                </div>\n            </div>\n            <div class=\"col-xs-12 col-md-6 col-xl-6\" style=\"padding-left: 0px; padding-right: 0px;\">\n                <div class=\"mbr-plan card text-xs-center\" style=\"margin-top: -30px; padding-top: 30px; padding-bottom: 30px; margin-left: -2px; margin-right: -2px; background-color: rgb(255, 255, 255); z-index: 100;\">\n                    <div class=\"mbr-plan-header card-block popular\">\n                      <div class=\"mbr-plan-label bg-warning mbr-editable-content\" style=\"top: -14px;\" code-editable-id=\"119\">POPULAR</div>\n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"120\">机器人员工</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                            <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"121\">¥</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"122\">9800</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"123\">/年</small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"124\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">&nbsp;<strong>价格低\n</strong></li><li class=\"list-group-item\"> <strong>无需培训直接上岗个个都是电销精英\n</strong></li><li class=\"list-group-item\"><strong>365天不间断工作，无需休息\n</strong></li><li class=\"list-group-item\"> <strong>每时每刻充满激情，情绪饱满不会波动\n</strong></li><li class=\"list-group-item\"><strong>自动统计，条理清晰\n</strong></li><li class=\"list-group-item\"> <strong>工作效率高，每天可以呼出1000个左右电销电话\n</strong></li><li class=\"list-group-item\"><strong>管理简单,使用方便</strong></li></ul></div>\n                      \n                    </div>\n                </div>\n            </div>\n            \n            \n          </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-price-table price-table2 mbr-background\" data-rv-view=\"586\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/pricing-table-bg.jpg&quot;); padding-top: 120px; padding-bottom: 120px;\">\n\n    \n\n      <div class=\"container\">\n          <div class=\"row\">\n              <div class=\"col-xs-12 text-xs-center\">\n                  <h1 class=\"mbr-section-title main-title mbr-editable-content\" style=\"margin-bottom: 0.28em;\" code-editable-id=\"112\">效率对比</h1>\n                  <h5 class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"113\"> 人工与机器人.</h5>\n              </div>\n          </div>\n      </div>\n\n    <div class=\"mbr-section mbr-section-nopadding\">\n      <div class=\"row priceItem\">\n            <div class=\"col-xs-12 col-md-6 col-xl-6\">\n                <div class=\"mbr-plan card text-xs-center\">\n                    <div class=\"mbr-plan-header card-block default\">\n                      \n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"114\" style=\"font-size: 18px;\">人工</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                          <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"115\">¥</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"116\">6万</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"117\" style=\"color: rgb(0, 0, 0);\">/年</small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"118\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><strong>招工成本高\n</strong></li><li class=\"list-group-item\"><strong>培训时间长\n</strong></li><li class=\"list-group-item\"><strong>社保公积金国家规定\n</strong></li><li class=\"list-group-item\"> <strong>工作时间短\n</strong></li><li class=\"list-group-item\"><strong>工作效率低\n</strong></li><li class=\"list-group-item\"><strong>情绪波动大\n</strong></li><li class=\"list-group-item\"><strong>工作单调枯燥离职率高\n</strong></li><li class=\"list-group-item\"><strong>员工管理难</strong></li></ul></div>\n                      \n                    </div>\n                </div>\n            </div>\n            <div class=\"col-xs-12 col-md-6 col-xl-6\" style=\"padding-left: 0px; padding-right: 0px;\">\n                <div class=\"mbr-plan card text-xs-center\" style=\"margin-top: -30px; padding-top: 30px; padding-bottom: 30px; margin-left: -2px; margin-right: -2px; background-color: rgb(255, 255, 255); z-index: 100;\">\n                    <div class=\"mbr-plan-header card-block popular\">\n                      <div class=\"mbr-plan-label bg-warning mbr-editable-content\" style=\"top: -14px;\" code-editable-id=\"119\">POPULAR</div>\n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" code-editable-id=\"120\" style=\"font-size: 18px;\">机器人</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          <div class=\"mbr-price\">\n                            <span class=\"mbr-price-value mbr-editable-content\" code-editable-id=\"121\">¥</span>\n                            <span class=\"mbr-price-figure mbr-editable-content\" code-editable-id=\"122\">9800</span><small class=\"mbr-price-term mbr-editable-content\" code-editable-id=\"123\" style=\"color: rgb(0, 0, 0);\">/年</small>\n                          </div>\n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <div class=\"mbr-plan-list mbr-editable-content\" code-editable-id=\"124\"><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">&nbsp;<strong>价格低\n</strong></li><li class=\"list-group-item\"> <strong>无需培训直接上岗个个都是电销精英\n</strong></li><li class=\"list-group-item\"><strong>365天不间断工作，无需休息\n</strong></li><li class=\"list-group-item\"> <strong>每时每刻充满激情，情绪饱满不会波动\n</strong></li><li class=\"list-group-item\"><strong>自动统计，条理清晰\n</strong></li><li class=\"list-group-item\"> <strong>工作效率高，每天可以呼出1000个左右电销电话\n</strong></li><li class=\"list-group-item\"><strong>管理简单,使用方便</strong></li></ul></div>\n                      \n                    </div>\n                </div>\n            </div>\n            \n            \n          </div>\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_customCSS": ".mbr-section__container .mbr-section-title {\n  color: #fff;\n}\n.mbr-section__container .mbr-section-subtitle {\n  color: #a0a0a0;\n}\n",
+          "_customCSS": "@import url(undefined);\n.mbr-section__container .mbr-section-title {\n  color: #fff;\n}\n.mbr-section__container .mbr-section-subtitle {\n  color: #a0a0a0;\n}\n",
           "_customTemplate": true
         },
         {
@@ -1520,7 +1533,8 @@
           "_anchor": "content2-x",
           "_styles": {
             "DIV": {
-              "font-size": "22px"
+              "font-size": "22px",
+              "color": "#000000"
             }
           }
         },
@@ -1650,6 +1664,11 @@
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
+              "font-size": "60px"
             }
           },
           "_params": {
@@ -1658,7 +1677,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "title": "他们都在用",
+          "title": "使用群体",
           "meta": "By <b>John Smith</b> posted July 20, 2016",
           "_tags": [
             "主题"
@@ -1874,14 +1893,42 @@
         },
         {
           "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#ecf0f1",
+              "text-align": "right"
+            },
+            "P": {
+              "color": "#ecf0f1"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "5",
+            "paddingBottom": "3",
+            "bgColor": "#333333"
+          },
+          "title": "18016585658 刘经理<br>13625945830 吴经理<br>0595-88165658 总机<br>地址：泉州晋江御景花园1栋8-9号店<br>&nbsp; &nbsp;邮箱：ZHKJ360@ZHIHU668.COM<br>",
+          "meta": "",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-4k"
+        },
+        {
+          "_styles": {
             ".mbr-section-subtitle": {
-              "font-size": "25px"
+              "font-size": "24px",
+              "text-align": "center"
             }
           },
           "_params": {
             "showButtons": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -1926,9 +1973,9 @@
           "text33": "Service",
           "text34": "Starter pack",
           "text35": "FAQ",
-          "titled1": "<a href=\"tel:+8618016585658\" class=\"text-success\">18016585658 </a> 刘经理&nbsp;<br><br><br>",
-          "titled2": "<a href=\"tel:+8613625945830\" class=\"text-success\">13625945830</a> 吴经理<br><a href=\"mailto:zhkj360@zhihu668.com\" class=\"text-white\">zhkj360@zhihu668.com</a><br>",
-          "titled3": "<a href=\"tel:059588165658\" class=\"text-success\">0595-88165658</a> 总机<br>泉州晋江御景花园1栋8-9号店<br>",
+          "titled1": "<br><br><br>",
+          "titled2": "",
+          "titled3": "",
           "followtext": "follow us",
           "text": "Copyright (c) 2016泉州智呼科技有限公司",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
@@ -1954,13 +2001,14 @@
         {
           "_styles": {
             ".mbr-section-subtitle": {
-              "font-size": "25px"
+              "font-size": "24px",
+              "text-align": "center"
             }
           },
           "_params": {
             "showButtons": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -2005,9 +2053,9 @@
           "text33": "Service",
           "text34": "Starter pack",
           "text35": "FAQ",
-          "titled1": "<a href=\"tel:+8618016585658\" class=\"text-success\">18016585658 </a> 刘经理&nbsp;<br><br><br>",
-          "titled2": "<a href=\"tel:+8613625945830\" class=\"text-success\">13625945830</a> 吴经理<br><a href=\"mailto:zhkj360@zhihu668.com\" class=\"text-white\">zhkj360@zhihu668.com</a><br>",
-          "titled3": "<a href=\"tel:059588165658\" class=\"text-success\">0595-88165658</a> 总机<br>泉州晋江御景花园1栋8-9号店<br>",
+          "titled1": "<br><br><br>",
+          "titled2": "",
+          "titled3": "",
           "followtext": "follow us",
           "text": "Copyright (c) 2016泉州智呼科技有限公司",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
@@ -2087,15 +2135,16 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"intro.html\">公司介绍</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-12\">免费试听</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"service.html\">特色服务</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"join.html\">立即加盟</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"intro.html\">首页</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"intro.html\">公司介绍</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-12\">免费试听</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"service.html\">特色服务</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"join.html\">立即加盟</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/d042206-364x128.png",
+              "src": "@PROJECT_PATH@/assets/images/d042206-466x122.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -2132,7 +2181,7 @@
             "showTitles": true,
             "ShowTexts": true,
             "showButtons": false,
-            "paddingTop": 2,
+            "paddingTop": "4",
             "paddingBottom": "0",
             "columns": 3,
             "bgImageRadio": true,
@@ -2145,8 +2194,8 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#3498db",
-            "overlayOpacity": 0.9
+            "overlayColor": "#7f8c8d",
+            "overlayOpacity": "0.9"
           },
           "media1": {
             "iconFont": {
@@ -2217,7 +2266,7 @@
               "family": "et-line"
             }
           },
-          "title": "专属团队贴心服务",
+          "title": "<br>专属团队贴心服务",
           "title1": "Bootstrap 4",
           "subtitle1": "•\t产品使用培训",
           "caption1": "•指派专人进行产品的现场使用培训，保障每一位客户都能正常使用。",
@@ -2396,7 +2445,7 @@
               "text-transform": "uppercase"
             },
             ".mbr-section-text": {
-              "color": "#666666",
+              "color": "#222222",
               "font-size": "25px"
             }
           },
@@ -2470,7 +2519,8 @@
               "text-transform": "uppercase"
             },
             ".mbr-section-text": {
-              "font-size": "25px"
+              "font-size": "25px",
+              "color": "#222222"
             }
           },
           "_params": {
@@ -2543,7 +2593,8 @@
               "text-transform": "uppercase"
             },
             ".mbr-section-text": {
-              "font-size": "24px"
+              "font-size": "24px",
+              "color": "#222222"
             }
           },
           "_params": {
@@ -2616,7 +2667,7 @@
               "text-transform": "uppercase",
               "letter-spacing": "2px",
               "color": "#fff",
-              "font-size": "20px"
+              "font-size": "25px"
             },
             ".mbr-section-text": {
               "font-size": "22px"
@@ -2644,7 +2695,7 @@
             "overlayColor": "#51b9bc",
             "overlayOpacity": 0.9
           },
-          "title": "深层次标签化CRM系统，最大限度提升销售管理效率",
+          "title": "深层次标签化CRM系统<br>最大限度提升销售管理效率",
           "title1": "Bootstrap 4",
           "subtitle1": "&nbsp;客户资料批量操作",
           "caption1": "根据行业、地域等属性批量上传，并可设置权限批量导出功能。",
@@ -2768,17 +2819,17 @@
             "overlayColor": "#ecf0f1",
             "overlayOpacity": 0.9
           },
-          "title1": "晋江世纪大道御景花园1栋8-9号店",
-          "title2": "18016585658  刘\n<div>13625945830  吴\n</div><div>0595-88165658</div>",
-          "title3": "zhihu668@foxmail.com",
-          "cat1": "地址",
+          "title1": "",
+          "title2": "18016585658 &nbsp; &nbsp;刘\n<div>13625945830 &nbsp; &nbsp;吴\n</div><div>0595-88165658</div>",
+          "title3": "邮箱：ZHKJ360@ZHIHU668.COM<br>地址：晋江世纪大道御景花园1栋8-9号店",
+          "cat1": "",
           "cat2": "phone",
-          "cat3": "email",
+          "cat3": "",
           "text": "泉州智呼科技有限公司",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>",
           "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">联系我们</a>",
           "form": {
-            "action": "32397729@qq.com",
+            "action": "ZHKJ360@ZHIHU668.COM",
             "alerts": {
               "success": "谢谢"
             },
@@ -2892,15 +2943,16 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"intro.html\">公司介绍</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-12\">免费试听</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"service.html\">特色服务</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"join.html\">立即加盟</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"intro.html\">首页</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"intro.html\">公司介绍</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-12\">免费试听</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"service.html\">特色服务</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"join.html\">立即加盟</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/d042206-364x128.png",
+              "src": "@PROJECT_PATH@/assets/images/d042206-466x122.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -2919,13 +2971,14 @@
         {
           "_styles": {
             ".mbr-section-subtitle": {
-              "font-size": "25px"
+              "font-size": "24px",
+              "text-align": "center"
             }
           },
           "_params": {
             "showButtons": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -2970,9 +3023,9 @@
           "text33": "Service",
           "text34": "Starter pack",
           "text35": "FAQ",
-          "titled1": "<a href=\"tel:+8618016585658\" class=\"text-success\">18016585658 </a> 刘经理&nbsp;<br><br><br>",
-          "titled2": "<a href=\"tel:+8613625945830\" class=\"text-success\">13625945830</a> 吴经理<br><a href=\"mailto:zhkj360@zhihu668.com\" class=\"text-white\">zhkj360@zhihu668.com</a><br>",
-          "titled3": "<a href=\"tel:059588165658\" class=\"text-success\">0595-88165658</a> 总机<br>泉州晋江御景花园1栋8-9号店<br>",
+          "titled1": "<br><br><br>",
+          "titled2": "",
+          "titled3": "",
           "followtext": "follow us",
           "text": "Copyright (c) 2016泉州智呼科技有限公司",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
@@ -3007,8 +3060,8 @@
             "overlayOpacity": "0.6"
           },
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
-          "title": "全自动电话机器人",
-          "text": "泉州智呼科技有限公司",
+          "title": "“智呼”<br>智能语音机器人",
+          "text": "",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">download it</a>",
           "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">加盟</a>",
           "form": {
@@ -3073,12 +3126,12 @@
             "overlayColor": "#ecf0f1",
             "overlayOpacity": 0.9
           },
-          "title1": "晋江世纪大道御景花园1栋8-9号店",
+          "title1": "",
           "title2": "18016585658  刘\n<div>13625945830  吴\n</div><div>0595-88165658</div>",
-          "title3": "zhihu668@foxmail.com",
-          "cat1": "地址",
+          "title3": "邮箱：ZHKJ360@ZHIHU668.COM<br>地址：晋江世纪大道御景花园1栋8-9号店",
+          "cat1": "",
           "cat2": "phone",
-          "cat3": "email",
+          "cat3": "",
           "text": "泉州智呼科技有限公司",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>",
           "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">联系我们</a>",
@@ -3131,13 +3184,14 @@
         {
           "_styles": {
             ".mbr-section-subtitle": {
-              "font-size": "25px"
+              "font-size": "24px",
+              "text-align": "center"
             }
           },
           "_params": {
             "showButtons": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3182,9 +3236,9 @@
           "text33": "Service",
           "text34": "Starter pack",
           "text35": "FAQ",
-          "titled1": "<a href=\"tel:+8618016585658\" class=\"text-success\">18016585658 </a> 刘经理&nbsp;<br><br><br>",
-          "titled2": "<a href=\"tel:+8613625945830\" class=\"text-success\">13625945830</a> 吴经理<br><a href=\"mailto:zhkj360@zhihu668.com\" class=\"text-white\">zhkj360@zhihu668.com</a><br>",
-          "titled3": "<a href=\"tel:059588165658\" class=\"text-success\">0595-88165658</a> 总机<br>泉州晋江御景花园1栋8-9号店<br>",
+          "titled1": "<br><br><br>",
+          "titled2": "",
+          "titled3": "",
           "followtext": "follow us",
           "text": "Copyright (c) 2016泉州智呼科技有限公司",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>",
@@ -3264,15 +3318,16 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"intro.html\">公司介绍</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-12\">免费试听</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"service.html\">特色服务</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"join.html\">立即加盟</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"intro.html\">首页</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"intro.html\">公司介绍</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-12\">免费试听</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"service.html\">特色服务</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"join.html\">立即加盟</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/d042206-364x128.png",
+              "src": "@PROJECT_PATH@/assets/images/d042206-466x122.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -3297,7 +3352,7 @@
               "font-weight": "700"
             },
             ".mbr-section-subtitle": {
-              "font-size": "22px"
+              "font-size": "25px"
             }
           },
           "_params": {
@@ -3321,8 +3376,8 @@
             "overlayOpacity": 0.9
           },
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
-          "title": "泉州智呼科技有限公司",
-          "text": "一家以技术为核心的科技类公司，技术团队建立于2017年，一直致力于人工智能语音的算法，核心技术分别为语音识别系统（ASR）、自然语言处理系统（NLP）、客户营销管理系统、大数据分析系统和呼叫通讯管理系统。技术沉淀1年后，于2018年4月份，正式注册泉州智呼科技有限公司，“智呼”产品正式面市",
+          "title": "泉州智呼科技有限公司<br>",
+          "text": "&nbsp; &nbsp; 一家以技术为核心的科技类公司，技术团队建立于2017年，一直致力于人工智能语音的算法，核心技术分别为语音识别系统（ASR）、自然语言处理系统（NLP）、客户营销管理系统、大数据分析系统和呼叫通讯管理系统。技术沉淀1年后，于2018年4月份，正式注册泉州智呼科技有限公司，“智呼”产品正式面市<br><br><br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
@@ -3333,17 +3388,93 @@
         },
         {
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#ffffff"
+            "showTitle": true,
+            "showSubtitle": true,
+            "showText": true,
+            "showButtons": false,
+            "bgCardImage": "@PROJECT_PATH@/assets/images/mbr-720x1080.jpg",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/grass.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.8
           },
-          "text": "<p><br></p><p>随着人工智能时代的到来，智呼科技率先发布了“智呼”智能语音系统，该系统采用最前沿的自然语言理解、大数据分析、云计算、建立智能决策反馈系统、训练适配业务场景的语言模型。采用文本挖掘技术，于海量对话数据中进行场景分类，句子感情分析，及情景词典构建等方式，构建完善的各种行业知识图谱，提升智呼机器人语义理解模块，适配不同场景下的应答响应。确保智呼电话机器人能够快速识别出客户对话中表达的意思，精准判断客户意向并给出准确回应，迅速而高效。使智能语音技术落地到企业端市场电话拓客的应用场景.\n</p><p>&nbsp; &nbsp; 智呼机器人具有完善智能办公系统，可以一键导入拨打详单，自主分配拨打计划，根据需求设置拨打时间，拨打频率。具有深度记忆学习技术，将拨打过程中的通话内容全部录音并精准转化成文字，分别用户查看拨打效果。采用ASR,SLU,DM,NLG和TTS对话系统，大数据+云计算技术，人工专业话术的录制配音，使得拨打过程中客户收听到的每一句话都和真人一模一样充满感情和渲染力。后台会根据客户的意向度做出分类筛选，锁住精准客户。及时提醒用户，实时跟踪使用情况，大大提升了工作效率。让企业实现通过智能语音系统代替销售人员完成电销过程中初步筛选的步骤，提高效率的同时，降低人工成本，给传统电销行业带来了重大的变革。而这一技术也一直在持续的升级和优化中，达到了同行业内的领先水平，获得众多客户的认可和肯定。</p><p><br></p>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "media": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/03.jpg",
+              "class": ""
+            }
+          },
+          "title": "",
+          "subtitle": "",
+          "text": "随着人工智能时代的到来，智呼科技率先发布了“智呼”智能语音系统，该系统采用最前沿的自然语言理解、大数据分析、云计算、建立智能决策反馈系统、训练适配业务场景的语言模型。采用文本挖掘技术，于海量对话数据中进行场景分类，句子感情分析，及情景词典构建等方式，构建完善的各种行业知识图谱，提升智呼机器人语义理解模块，适配不同场景下的应答响应。确保智呼电话机器人能够快速识别出客户对话中表达的意思，精准判断客户意向并给出准确回应，迅速而高效。使智能语音技术落地到企业端市场电话拓客的应用场景.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">learn more</a>",
           "alias": "colorm/components",
           "_tags": [
             "主题"
           ],
-          "_name": "content4",
-          "_anchor": "content4-4i"
+          "_name": "testimonials3",
+          "_anchor": "testimonials3-4m",
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#222222"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showText": true,
+            "showButtons": false,
+            "bgCardImage": "@PROJECT_PATH@/assets/images/1112-1280x853.jpg",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/grass.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#bdc3c7",
+            "overlayOpacity": 0.8
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "media": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/03.jpg",
+              "class": ""
+            }
+          },
+          "title": "",
+          "subtitle": "",
+          "text": "智呼机器人具有完善智能办公系统，可以一键导入拨打详单，自主分配拨打计划，根据需求设置拨打时间，拨打频率。具有深度记忆学习技术，将拨打过程中的通话内容全部录音并精准转化成文字，分别用户查看拨打效果。采用ASR,SLU,DM,NLG和TTS对话系统，大数据+云计算技术，人工专业话术的录制配音，使得拨打过程中客户收听到的每一句话都和真人一模一样充满感情和渲染力。后台会根据客户的意向度做出分类筛选，锁住精准客户。及时提醒用户，实时跟踪使用情况，大大提升了工作效率。让企业实现通过智能语音系统代替销售人员完成电销过程中初步筛选的步骤，提高效率的同时，降低人工成本，给传统电销行业带来了重大的变革。而这一技术也一直在持续的升级和优化中，达到了同行业内的领先水平，获得众多客户的认可和肯定。",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "testimonials3",
+          "_anchor": "testimonials3-4n",
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#000000"
+            }
+          }
         },
         {
           "_styles": {
@@ -3376,17 +3507,17 @@
             "overlayColor": "#ecf0f1",
             "overlayOpacity": 0.9
           },
-          "title1": "晋江世纪大道御景花园1栋8-9号店",
+          "title1": "",
           "title2": "18016585658  刘\n<div>13625945830  吴\n</div><div>0595-88165658</div>",
-          "title3": "zhihu668@foxmail.com",
-          "cat1": "地址",
+          "title3": "邮箱：zhihu668@foxmail.com<br>地址: &nbsp; 晋江世纪大道御景花园1栋8-9号店",
+          "cat1": "",
           "cat2": "phone",
-          "cat3": "email",
+          "cat3": "",
           "text": "泉州智呼科技有限公司",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-skype\"></span></a><a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin\"></span></a>",
           "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">联系我们</a>",
           "form": {
-            "action": "32397729@qq.com",
+            "action": "zhihu668@foxmail.com",
             "alerts": {
               "success": "谢谢"
             },
